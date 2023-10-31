@@ -1,0 +1,682 @@
+2023-08-31 12:54:55 | INFO | train | Using one GPU: cuda.
+2023-08-31 12:55:22 | INFO | train | Using one GPU: cuda.
+2023-08-31 12:55:22 | INFO | train | Model parameters: Namespace(anchor='anchor', auto_clean_model_mode=1, batch_size=3, bert_config_path='./config/uncased_L-12_H-768_A-12/bert_config.json', bert_is_array=True, bert_pretrained_path='./saved_model/english_bert_base.bin', bert_vocab_path='./config/uncased_L-12_H-768_A-12/vocab.txt', breakpoint=-1, config_path='./config/model-en.conf', data_dir='/mnt/inspurfs/user-fs/pengwei/mnt/inspurfs/user-fs/pengwei/debug_traffic/./data/sample', dim_bert=768, dim_hidden=512, dp_mode_gpu_num=-1, embedding_dropout_rate=0.5, gpu_mode=1, has_valid=1, iter_num=100000, label_path='./config/label.conf', lambda1=1, lambda2=1, language='en', learning_rate=0.001, linear_dropout_rate=0.5, local_rank=0, lr_bert=1e-05, lr_word_vector=0.0001, max_checkpoint=4096, max_length_sen=256, model_type='BertConCap', multi_gpu=None, n_gram=3, n_loss=3, name_model='debug', optim_type='Adam', per_checkpoint=256, pretrained_model_path='./saved_model/model-f1_macro-650.pth', rnn_type='LSTM', sampled_num=1200, seed=2021, segment_type='char', use_pretrain_bert=True, use_word_vec=False, weight_decay=0)
+2023-08-31 12:55:22 | INFO | train | Num of worker in data loader is: 4
+2023-08-31 12:55:22 | INFO | train | task detail: {'0': {'is_valid': True, 'contribution': 2, 'value': 2}, '1': {'is_valid': True, 'contribution': 16, 'value': 16}, '2': {'is_valid': True, 'contribution': 2, 'value': 2}, '3': {'is_valid': True, 'contribution': 5, 'value': 5}, '4': {'is_valid': True, 'contribution': 2, 'value': 2}, '5': {'is_valid': True, 'contribution': 19, 'value': 19}}
+2023-08-31 12:55:46 | INFO | train | Using one GPU: cuda.
+2023-08-31 12:55:46 | INFO | train | Model parameters: Namespace(anchor='anchor', auto_clean_model_mode=1, batch_size=3, bert_config_path='./config/uncased_L-12_H-768_A-12/bert_config.json', bert_is_array=True, bert_pretrained_path='./saved_model/english_bert_base.bin', bert_vocab_path='./config/uncased_L-12_H-768_A-12/vocab.txt', breakpoint=-1, config_path='./config/model-en.conf', data_dir='/mnt/inspurfs/user-fs/pengwei/mnt/inspurfs/user-fs/pengwei/debug_traffic/./data/sample', dim_bert=768, dim_hidden=512, dp_mode_gpu_num=-1, embedding_dropout_rate=0.5, gpu_mode=1, has_valid=1, iter_num=100000, label_path='./config/label.conf', lambda1=1, lambda2=1, language='en', learning_rate=0.001, linear_dropout_rate=0.5, local_rank=0, lr_bert=1e-05, lr_word_vector=0.0001, max_checkpoint=4096, max_length_sen=256, model_type='BertConCap', multi_gpu=None, n_gram=3, n_loss=3, name_model='debug', optim_type='Adam', per_checkpoint=256, pretrained_model_path='./saved_model/model-f1_macro-650.pth', rnn_type='LSTM', sampled_num=1200, seed=2021, segment_type='char', use_pretrain_bert=True, use_word_vec=False, weight_decay=0)
+2023-08-31 12:55:46 | INFO | train | Num of worker in data loader is: 4
+2023-08-31 12:55:46 | INFO | train | task detail: {'0': {'is_valid': True, 'contribution': 2, 'value': 2}, '1': {'is_valid': True, 'contribution': 16, 'value': 16}, '2': {'is_valid': True, 'contribution': 2, 'value': 2}, '3': {'is_valid': True, 'contribution': 5, 'value': 5}, '4': {'is_valid': True, 'contribution': 2, 'value': 2}, '5': {'is_valid': True, 'contribution': 19, 'value': 19}}
+2023-08-31 12:57:49 | INFO | train | Using one GPU: cuda.
+2023-08-31 12:57:49 | INFO | train | Model parameters: Namespace(anchor='anchor', auto_clean_model_mode=1, batch_size=3, bert_config_path='./config/uncased_L-12_H-768_A-12/bert_config.json', bert_is_array=True, bert_pretrained_path='./saved_model/english_bert_base.bin', bert_vocab_path='./config/uncased_L-12_H-768_A-12/vocab.txt', breakpoint=-1, config_path='./config/model-en.conf', data_dir='/mnt/inspurfs/user-fs/pengwei/mnt/inspurfs/user-fs/pengwei/debug_traffic/./data/sample', dim_bert=768, dim_hidden=512, dp_mode_gpu_num=-1, embedding_dropout_rate=0.5, gpu_mode=1, has_valid=1, iter_num=100000, label_path='./config/label.conf', lambda1=1, lambda2=1, language='en', learning_rate=0.001, linear_dropout_rate=0.5, local_rank=0, lr_bert=1e-05, lr_word_vector=0.0001, max_checkpoint=4096, max_length_sen=256, model_type='BertConCap', multi_gpu=None, n_gram=3, n_loss=3, name_model='debug', optim_type='Adam', per_checkpoint=256, pretrained_model_path='./saved_model/model-f1_macro-650.pth', rnn_type='LSTM', sampled_num=1200, seed=2021, segment_type='char', use_pretrain_bert=True, use_word_vec=False, weight_decay=0)
+2023-08-31 12:57:49 | INFO | train | Num of worker in data loader is: 4
+2023-08-31 12:57:49 | INFO | train | task detail: {'0': {'is_valid': True, 'contribution': 2, 'value': 2}, '1': {'is_valid': True, 'contribution': 16, 'value': 16}, '2': {'is_valid': True, 'contribution': 2, 'value': 2}, '3': {'is_valid': True, 'contribution': 5, 'value': 5}, '4': {'is_valid': True, 'contribution': 2, 'value': 2}, '5': {'is_valid': True, 'contribution': 19, 'value': 19}}
+2023-08-31 12:59:43 | INFO | train | Using one GPU: cuda.
+2023-08-31 12:59:43 | INFO | train | Model parameters: Namespace(anchor='anchor', auto_clean_model_mode=1, batch_size=3, bert_config_path='./config/uncased_L-12_H-768_A-12/bert_config.json', bert_is_array=True, bert_pretrained_path='./saved_model/english_bert_base.bin', bert_vocab_path='./config/uncased_L-12_H-768_A-12/vocab.txt', breakpoint=-1, config_path='./config/model-en.conf', data_dir='/mnt/inspurfs/user-fs/pengwei/mnt/inspurfs/user-fs/pengwei/debug_traffic/./data/sample', dim_bert=768, dim_hidden=512, dp_mode_gpu_num=-1, embedding_dropout_rate=0.5, gpu_mode=1, has_valid=1, iter_num=100000, label_path='./config/label.conf', lambda1=1, lambda2=1, language='en', learning_rate=0.001, linear_dropout_rate=0.5, local_rank=0, lr_bert=1e-05, lr_word_vector=0.0001, max_checkpoint=4096, max_length_sen=256, model_type='BertConCap', multi_gpu=None, n_gram=3, n_loss=3, name_model='debug', optim_type='Adam', per_checkpoint=256, pretrained_model_path='./saved_model/model-f1_macro-650.pth', rnn_type='LSTM', sampled_num=1200, seed=2021, segment_type='char', use_pretrain_bert=True, use_word_vec=False, weight_decay=0)
+2023-08-31 12:59:43 | INFO | train | Num of worker in data loader is: 4
+2023-08-31 12:59:43 | INFO | train | task detail: {'0': {'is_valid': True, 'contribution': 2, 'value': 2}, '1': {'is_valid': True, 'contribution': 16, 'value': 16}, '2': {'is_valid': True, 'contribution': 2, 'value': 2}, '3': {'is_valid': True, 'contribution': 5, 'value': 5}, '4': {'is_valid': True, 'contribution': 2, 'value': 2}, '5': {'is_valid': True, 'contribution': 19, 'value': 19}}
+2023-08-31 13:00:16 | INFO | train | Using one GPU: cuda.
+2023-08-31 13:00:16 | INFO | train | Model parameters: Namespace(anchor='anchor', auto_clean_model_mode=1, batch_size=3, bert_config_path='./config/uncased_L-12_H-768_A-12/bert_config.json', bert_is_array=True, bert_pretrained_path='./saved_model/english_bert_base.bin', bert_vocab_path='./config/uncased_L-12_H-768_A-12/vocab.txt', breakpoint=-1, config_path='./config/model-en.conf', data_dir='/mnt/inspurfs/user-fs/pengwei/mnt/inspurfs/user-fs/pengwei/debug_traffic/toy', dim_bert=768, dim_hidden=512, dp_mode_gpu_num=-1, embedding_dropout_rate=0.5, gpu_mode=1, has_valid=1, iter_num=100000, label_path='./config/label.conf', lambda1=1, lambda2=1, language='en', learning_rate=0.001, linear_dropout_rate=0.5, local_rank=0, lr_bert=1e-05, lr_word_vector=0.0001, max_checkpoint=4096, max_length_sen=256, model_type='BertConCap', multi_gpu=None, n_gram=3, n_loss=3, name_model='debug', optim_type='Adam', per_checkpoint=256, pretrained_model_path='./saved_model/model-f1_macro-650.pth', rnn_type='LSTM', sampled_num=1200, seed=2021, segment_type='char', use_pretrain_bert=True, use_word_vec=False, weight_decay=0)
+2023-08-31 13:00:16 | INFO | train | Num of worker in data loader is: 4
+2023-08-31 13:00:16 | INFO | train | task detail: {'0': {'is_valid': True, 'contribution': 2, 'value': 2}, '1': {'is_valid': True, 'contribution': 16, 'value': 16}, '2': {'is_valid': True, 'contribution': 2, 'value': 2}, '3': {'is_valid': True, 'contribution': 5, 'value': 5}, '4': {'is_valid': True, 'contribution': 2, 'value': 2}, '5': {'is_valid': True, 'contribution': 19, 'value': 19}}
+2023-08-31 13:00:55 | INFO | train | Using one GPU: cuda.
+2023-08-31 13:00:55 | INFO | train | Model parameters: Namespace(anchor='anchor', auto_clean_model_mode=1, batch_size=3, bert_config_path='./config/uncased_L-12_H-768_A-12/bert_config.json', bert_is_array=True, bert_pretrained_path='./saved_model/english_bert_base.bin', bert_vocab_path='./config/uncased_L-12_H-768_A-12/vocab.txt', breakpoint=-1, config_path='./config/model-en.conf', data_dir='/mnt/inspurfs/user-fs/pengwei/mnt/inspurfs/user-fs/pengwei/debug_traffic/./data/toy', dim_bert=768, dim_hidden=512, dp_mode_gpu_num=-1, embedding_dropout_rate=0.5, gpu_mode=1, has_valid=1, iter_num=100000, label_path='./config/label.conf', lambda1=1, lambda2=1, language='en', learning_rate=0.001, linear_dropout_rate=0.5, local_rank=0, lr_bert=1e-05, lr_word_vector=0.0001, max_checkpoint=4096, max_length_sen=256, model_type='BertConCap', multi_gpu=None, n_gram=3, n_loss=3, name_model='debug', optim_type='Adam', per_checkpoint=256, pretrained_model_path='./saved_model/model-f1_macro-650.pth', rnn_type='LSTM', sampled_num=1200, seed=2021, segment_type='char', use_pretrain_bert=True, use_word_vec=False, weight_decay=0)
+2023-08-31 13:00:55 | INFO | train | Num of worker in data loader is: 4
+2023-08-31 13:00:55 | INFO | train | task detail: {'0': {'is_valid': True, 'contribution': 2, 'value': 2}, '1': {'is_valid': True, 'contribution': 16, 'value': 16}, '2': {'is_valid': True, 'contribution': 2, 'value': 2}, '3': {'is_valid': True, 'contribution': 5, 'value': 5}, '4': {'is_valid': True, 'contribution': 2, 'value': 2}, '5': {'is_valid': True, 'contribution': 19, 'value': 19}}
+2023-08-31 13:01:01 | INFO | deepnet.data.dataset_text | Use general data sampler.
+2023-08-31 13:01:01 | INFO | train | Dataset Statictis(only for evaluation): train: 388
+2023-08-31 13:01:01 | INFO | train | Dataset Statictis(only for evaluation): valid: 389
+2023-08-31 13:01:01 | INFO | train | Dataset Statictis(only for evaluation): test: 386
+2023-08-31 13:01:01 | INFO | train | ----------------------------------------------------------------------------------
+2023-08-31 13:01:01 | INFO | train | Time of iter training 0.00 s
+2023-08-31 13:01:01 | INFO | train | On iter step 0:, global step 0 Loss-step [1.0000 1.0000 1.0000]
+2023-08-31 13:01:06 | INFO | train | Using one GPU: cuda.
+2023-08-31 13:01:06 | INFO | train | Model parameters: Namespace(anchor='anchor', auto_clean_model_mode=1, batch_size=3, bert_config_path='./config/uncased_L-12_H-768_A-12/bert_config.json', bert_is_array=True, bert_pretrained_path='./saved_model/english_bert_base.bin', bert_vocab_path='./config/uncased_L-12_H-768_A-12/vocab.txt', breakpoint=-1, config_path='./config/model-en.conf', data_dir='/mnt/inspurfs/user-fs/pengwei/mnt/inspurfs/user-fs/pengwei/debug_traffic/./data/toy', dim_bert=768, dim_hidden=512, dp_mode_gpu_num=-1, embedding_dropout_rate=0.5, gpu_mode=1, has_valid=1, iter_num=100000, label_path='./config/label.conf', lambda1=1, lambda2=1, language='en', learning_rate=0.001, linear_dropout_rate=0.5, local_rank=0, lr_bert=1e-05, lr_word_vector=0.0001, max_checkpoint=4096, max_length_sen=256, model_type='BertConCap', multi_gpu=None, n_gram=3, n_loss=3, name_model='debug', optim_type='Adam', per_checkpoint=256, pretrained_model_path='./saved_model/model-f1_macro-650.pth', rnn_type='LSTM', sampled_num=1200, seed=2021, segment_type='char', use_pretrain_bert=True, use_word_vec=False, weight_decay=0)
+2023-08-31 13:01:06 | INFO | train | Num of worker in data loader is: 4
+2023-08-31 13:01:06 | INFO | train | task detail: {'0': {'is_valid': True, 'contribution': 2, 'value': 2}, '1': {'is_valid': True, 'contribution': 16, 'value': 16}, '2': {'is_valid': True, 'contribution': 2, 'value': 2}, '3': {'is_valid': True, 'contribution': 5, 'value': 5}, '4': {'is_valid': True, 'contribution': 2, 'value': 2}, '5': {'is_valid': True, 'contribution': 19, 'value': 19}}
+2023-08-31 13:01:11 | INFO | deepnet.data.dataset_text | Use general data sampler.
+2023-08-31 13:01:12 | INFO | train | Dataset Statictis(only for evaluation): train: 388
+2023-08-31 13:01:12 | INFO | train | Dataset Statictis(only for evaluation): valid: 389
+2023-08-31 13:01:12 | INFO | train | Dataset Statictis(only for evaluation): test: 386
+2023-08-31 13:03:53 | INFO | train | Using one GPU: cuda.
+2023-08-31 13:04:19 | INFO | train | Model parameters: Namespace(anchor='anchor', auto_clean_model_mode=1, batch_size=3, bert_config_path='./config/uncased_L-12_H-768_A-12/bert_config.json', bert_is_array=True, bert_pretrained_path='./saved_model/english_bert_base.bin', bert_vocab_path='./config/uncased_L-12_H-768_A-12/vocab.txt', breakpoint=-1, config_path='./config/model-en.conf', data_dir='/mnt/inspurfs/user-fs/pengwei/mnt/inspurfs/user-fs/pengwei/debug_traffic/./data/toy', dim_bert=768, dim_hidden=512, dp_mode_gpu_num=-1, embedding_dropout_rate=0.5, gpu_mode=1, has_valid=1, iter_num=100000, label_path='./config/label.conf', lambda1=1, lambda2=1, language='en', learning_rate=0.001, linear_dropout_rate=0.5, local_rank=0, lr_bert=1e-05, lr_word_vector=0.0001, max_checkpoint=4096, max_length_sen=256, model_type='BertConCap', multi_gpu=None, n_gram=3, n_loss=3, name_model='debug', optim_type='Adam', per_checkpoint=256, pretrained_model_path='./saved_model/model-f1_macro-650.pth', rnn_type='LSTM', sampled_num=1200, seed=2021, segment_type='char', use_pretrain_bert=True, use_word_vec=False, weight_decay=0)
+2023-08-31 13:04:19 | INFO | train | Num of worker in data loader is: 4
+2023-08-31 13:04:19 | INFO | train | task detail: {'0': {'is_valid': True, 'contribution': 2, 'value': 2}, '1': {'is_valid': True, 'contribution': 16, 'value': 16}, '2': {'is_valid': True, 'contribution': 2, 'value': 2}, '3': {'is_valid': True, 'contribution': 5, 'value': 5}, '4': {'is_valid': True, 'contribution': 2, 'value': 2}, '5': {'is_valid': True, 'contribution': 19, 'value': 19}}
+2023-08-31 13:10:08 | INFO | deepnet.data.dataset_text | Use general data sampler.
+2023-08-31 13:10:09 | INFO | train | Dataset Statictis(only for evaluation): train: 388
+2023-08-31 13:10:09 | INFO | train | Dataset Statictis(only for evaluation): valid: 389
+2023-08-31 13:10:09 | INFO | train | Dataset Statictis(only for evaluation): test: 386
+2023-08-31 13:10:40 | INFO | train | ----------------------------------------------------------------------------------
+2023-08-31 13:10:40 | INFO | train | Time of iter training 0.00 s
+2023-08-31 13:10:40 | INFO | train | On iter step 0:, global step 0 Loss-step [1.0000 1.0000 1.0000]
+2023-09-01 13:08:18 | INFO | train | Using one GPU: cuda.
+2023-09-01 13:08:18 | INFO | train | Model parameters: Namespace(anchor='anchor', auto_clean_model_mode=1, batch_size=3, bert_config_path='./config/uncased_L-12_H-768_A-12/bert_config.json', bert_is_array=True, bert_pretrained_path='./saved_model/english_bert_base.bin', bert_vocab_path='./config/uncased_L-12_H-768_A-12/vocab.txt', breakpoint=-1, config_path='./config/model-en.conf', data_dir='/mnt/inspurfs/user-fs/pengwei/mnt/inspurfs/user-fs/pengwei/debug_traffic/./data/toy', dim_bert=768, dim_hidden=512, dp_mode_gpu_num=-1, embedding_dropout_rate=0.5, gpu_mode=1, has_valid=1, iter_num=100000, label_path='./config/label.conf', lambda1=1, lambda2=1, language='en', learning_rate=0.001, linear_dropout_rate=0.5, local_rank=0, lr_bert=1e-05, lr_word_vector=0.0001, max_checkpoint=4096, max_length_sen=256, model_type='BertConCap', multi_gpu=None, n_gram=3, n_loss=3, name_model='debug', optim_type='Adam', per_checkpoint=256, pretrained_model_path='./saved_model/model-f1_macro-650.pth', rnn_type='LSTM', sampled_num=1200, seed=2021, segment_type='char', use_pretrain_bert=True, use_word_vec=False, weight_decay=0)
+2023-09-01 13:08:18 | INFO | train | Num of worker in data loader is: 4
+2023-09-01 13:08:18 | INFO | train | task detail: {'0': {'is_valid': True, 'contribution': 2, 'value': 2}, '1': {'is_valid': True, 'contribution': 16, 'value': 16}, '2': {'is_valid': True, 'contribution': 2, 'value': 2}, '3': {'is_valid': True, 'contribution': 5, 'value': 5}, '4': {'is_valid': True, 'contribution': 2, 'value': 2}, '5': {'is_valid': True, 'contribution': 19, 'value': 19}}
+2023-09-01 13:08:24 | INFO | deepnet.data.dataset_text | Use general data sampler.
+2023-09-01 13:08:24 | INFO | train | Dataset Statictis(only for evaluation): train: 388
+2023-09-01 13:08:24 | INFO | train | Dataset Statictis(only for evaluation): valid: 389
+2023-09-01 13:08:24 | INFO | train | Dataset Statictis(only for evaluation): test: 386
+2023-09-01 13:08:24 | INFO | train | ----------------------------------------------------------------------------------
+2023-09-01 13:08:24 | INFO | train | Time of iter training 0.00 s
+2023-09-01 13:08:24 | INFO | train | On iter step 0:, global step 0 Loss-step [1.0000 1.0000 1.0000]
+2023-09-01 16:34:43 | INFO | train | Using one GPU: cuda.
+2023-09-01 16:34:43 | INFO | train | Model parameters: Namespace(anchor='anchor', auto_clean_model_mode=1, batch_size=3, bert_config_path='./config/uncased_L-12_H-768_A-12/bert_config.json', bert_is_array=True, bert_pretrained_path='./saved_model/english_bert_base.bin', bert_vocab_path='./config/uncased_L-12_H-768_A-12/vocab.txt', breakpoint=-1, config_path='./config/model-en.conf', data_dir='/mnt/inspurfs/user-fs/pengwei/mnt/inspurfs/user-fs/pengwei/debug_traffic/./data/toy', dim_bert=768, dim_hidden=512, dp_mode_gpu_num=-1, embedding_dropout_rate=0.5, gpu_mode=1, has_valid=1, iter_num=100000, label_path='./config/label.conf', lambda1=1, lambda2=1, language='en', learning_rate=0.001, linear_dropout_rate=0.5, local_rank=0, lr_bert=1e-05, lr_word_vector=0.0001, max_checkpoint=4096, max_length_sen=256, model_type='BertConCap', multi_gpu=None, n_gram=3, n_loss=3, name_model='debug', optim_type='Adam', per_checkpoint=256, pretrained_model_path='./saved_model/model-f1_macro-650.pth', rnn_type='LSTM', sampled_num=1200, seed=2021, segment_type='char', use_pretrain_bert=True, use_word_vec=False, weight_decay=0)
+2023-09-01 16:34:43 | INFO | train | Num of worker in data loader is: 4
+2023-09-01 16:34:43 | INFO | train | task detail: {'0': {'is_valid': True, 'contribution': 2, 'value': 2}, '1': {'is_valid': True, 'contribution': 16, 'value': 16}, '2': {'is_valid': True, 'contribution': 2, 'value': 2}, '3': {'is_valid': True, 'contribution': 5, 'value': 5}, '4': {'is_valid': True, 'contribution': 2, 'value': 2}, '5': {'is_valid': True, 'contribution': 19, 'value': 19}}
+2023-09-01 16:35:15 | INFO | train | Using one GPU: cuda.
+2023-09-01 16:35:15 | INFO | train | Model parameters: Namespace(anchor='anchor', auto_clean_model_mode=1, batch_size=3, bert_config_path='./config/uncased_L-12_H-768_A-12/bert_config.json', bert_is_array=True, bert_pretrained_path='./saved_model/english_bert_base.bin', bert_vocab_path='./config/uncased_L-12_H-768_A-12/vocab.txt', breakpoint=-1, config_path='./config/model-en.conf', data_dir='/mnt/inspurfs/user-fs/pengwei/mnt/inspurfs/user-fs/pengwei/debug_traffic/./data/toy', dim_bert=768, dim_hidden=512, dp_mode_gpu_num=-1, embedding_dropout_rate=0.5, gpu_mode=1, has_valid=1, iter_num=100000, label_path='./config/label.conf', lambda1=1, lambda2=1, language='en', learning_rate=0.001, linear_dropout_rate=0.5, local_rank=0, lr_bert=1e-05, lr_word_vector=0.0001, max_checkpoint=4096, max_length_sen=256, model_type='BertConCap', multi_gpu=None, n_gram=3, n_loss=3, name_model='debug', optim_type='Adam', per_checkpoint=256, pretrained_model_path='./saved_model/model-f1_macro-650.pth', rnn_type='LSTM', sampled_num=1200, seed=2021, segment_type='char', use_pretrain_bert=True, use_word_vec=True, weight_decay=0)
+2023-09-01 16:35:15 | INFO | train | Num of worker in data loader is: 4
+2023-09-01 16:35:15 | INFO | train | task detail: {'0': {'is_valid': True, 'contribution': 2, 'value': 2}, '1': {'is_valid': True, 'contribution': 16, 'value': 16}, '2': {'is_valid': True, 'contribution': 2, 'value': 2}, '3': {'is_valid': True, 'contribution': 5, 'value': 5}, '4': {'is_valid': True, 'contribution': 2, 'value': 2}, '5': {'is_valid': True, 'contribution': 19, 'value': 19}}
+2023-09-01 16:37:57 | INFO | word_vec | Loading word vectors...
+2023-09-01 16:38:09 | WARNING | word_vec | all word vec is inited by random
+2023-09-01 16:38:30 | INFO | word_vec | 0 words found in vocab
+2023-09-01 16:38:31 | INFO | word_vec | 1 words not found in vocab
+2023-09-01 17:05:31 | INFO | deepnet.data.dataset_text | Use general data sampler.
+2023-09-01 17:14:22 | INFO | train | Dataset Statictis(only for evaluation): train: 388
+2023-09-01 17:14:34 | INFO | train | Dataset Statictis(only for evaluation): valid: 389
+2023-09-01 17:14:34 | INFO | train | Dataset Statictis(only for evaluation): test: 386
+2023-09-01 17:16:07 | INFO | train | Using one GPU: cuda.
+2023-09-01 17:16:07 | INFO | train | Model parameters: Namespace(anchor='anchor', auto_clean_model_mode=1, batch_size=3, bert_config_path='./config/uncased_L-12_H-768_A-12/bert_config.json', bert_is_array=True, bert_pretrained_path='./saved_model/english_bert_base.bin', bert_vocab_path='./config/uncased_L-12_H-768_A-12/vocab.txt', breakpoint=-1, config_path='./config/model-en.conf', data_dir='/mnt/inspurfs/user-fs/pengwei/mnt/inspurfs/user-fs/pengwei/debug_traffic/./data/toy', dim_bert=768, dim_hidden=512, dp_mode_gpu_num=-1, embedding_dropout_rate=0.5, gpu_mode=1, has_valid=1, iter_num=100000, label_path='./config/label.conf', lambda1=1, lambda2=1, language='en', learning_rate=0.001, linear_dropout_rate=0.5, local_rank=0, lr_bert=1e-05, lr_word_vector=0.0001, max_checkpoint=4096, max_length_sen=256, model_type='BertConCap', multi_gpu=None, n_gram=3, n_loss=3, name_model='debug', optim_type='Adam', per_checkpoint=256, pretrained_model_path='./saved_model/model-f1_macro-650.pth', rnn_type='LSTM', sampled_num=1200, seed=2021, segment_type='char', use_pretrain_bert=True, use_word_vec=True, weight_decay=0)
+2023-09-01 17:16:07 | INFO | train | Num of worker in data loader is: 4
+2023-09-01 17:16:07 | INFO | train | task detail: {'0': {'is_valid': True, 'contribution': 2, 'value': 2}, '1': {'is_valid': True, 'contribution': 16, 'value': 16}, '2': {'is_valid': True, 'contribution': 2, 'value': 2}, '3': {'is_valid': True, 'contribution': 5, 'value': 5}, '4': {'is_valid': True, 'contribution': 2, 'value': 2}, '5': {'is_valid': True, 'contribution': 19, 'value': 19}}
+2023-09-01 17:16:12 | INFO | word_vec | Loading word vectors...
+2023-09-01 17:16:13 | WARNING | word_vec | all word vec is inited by random
+2023-09-01 17:16:13 | INFO | word_vec | 0 words found in vocab
+2023-09-01 17:16:13 | INFO | word_vec | 33 words not found in vocab
+2023-09-01 17:16:19 | INFO | deepnet.data.dataset_text | Use general data sampler.
+2023-09-01 17:16:19 | INFO | train | Dataset Statictis(only for evaluation): train: 388
+2023-09-01 17:16:19 | INFO | train | Dataset Statictis(only for evaluation): valid: 389
+2023-09-01 17:16:19 | INFO | train | Dataset Statictis(only for evaluation): test: 386
+2023-09-04 11:15:11 | INFO | train | Using one GPU: cuda.
+2023-09-04 11:15:11 | INFO | train | Model parameters: Namespace(anchor='anchor', auto_clean_model_mode=1, batch_size=3, bert_config_path='./config/uncased_L-12_H-768_A-12/bert_config.json', bert_is_array=True, bert_pretrained_path='./saved_model/english_bert_base.bin', bert_vocab_path='./config/uncased_L-12_H-768_A-12/vocab.txt', breakpoint=-1, config_path='./config/model-en.conf', data_dir='/mnt/inspurfs/user-fs/pengwei/mnt/inspurfs/user-fs/pengwei/debug_traffic/./data/toy', dim_bert=768, dim_hidden=512, dp_mode_gpu_num=-1, embedding_dropout_rate=0.5, gpu_mode=1, has_valid=1, iter_num=100000, label_path='./config/label.conf', lambda1=1, lambda2=1, language='en', learning_rate=0.001, linear_dropout_rate=0.5, local_rank=0, lr_bert=1e-05, lr_word_vector=0.0001, max_checkpoint=4096, max_length_sen=256, model_type='BertConCap', multi_gpu=None, n_gram=3, n_loss=3, name_model='debug', optim_type='Adam', per_checkpoint=256, pretrained_model_path='./saved_model/model-f1_macro-650.pth', rnn_type='LSTM', sampled_num=1200, seed=2021, segment_type='char', use_pretrain_bert=True, use_word_vec=True, weight_decay=0)
+2023-09-04 11:15:11 | INFO | train | Num of worker in data loader is: 4
+2023-09-04 11:15:11 | INFO | train | task detail: {'0': {'is_valid': True, 'contribution': 2, 'value': 2}, '1': {'is_valid': True, 'contribution': 16, 'value': 16}, '2': {'is_valid': True, 'contribution': 2, 'value': 2}, '3': {'is_valid': True, 'contribution': 5, 'value': 5}, '4': {'is_valid': True, 'contribution': 2, 'value': 2}, '5': {'is_valid': True, 'contribution': 19, 'value': 19}}
+2023-09-04 11:15:21 | INFO | word_vec | Loading word vectors...
+2023-09-04 11:15:25 | WARNING | word_vec | all word vec is inited by random
+2023-09-04 11:15:25 | INFO | word_vec | 0 words found in vocab
+2023-09-04 11:15:25 | INFO | word_vec | 33 words not found in vocab
+2023-09-04 11:15:31 | INFO | deepnet.data.dataset_text | Use general data sampler.
+2023-09-04 11:15:31 | INFO | train | Dataset Statictis(only for evaluation): train: 388
+2023-09-04 11:15:31 | INFO | train | Dataset Statictis(only for evaluation): valid: 389
+2023-09-04 11:15:31 | INFO | train | Dataset Statictis(only for evaluation): test: 386
+2023-09-04 15:31:23 | INFO | train | Using one GPU: cuda.
+2023-09-04 15:31:23 | INFO | train | Model parameters: Namespace(anchor='anchor', auto_clean_model_mode=1, batch_size=3, bert_config_path='./config/uncased_L-12_H-768_A-12/bert_config.json', bert_is_array=True, bert_pretrained_path='./saved_model/english_bert_base.bin', bert_vocab_path='./config/uncased_L-12_H-768_A-12/vocab.txt', breakpoint=-1, config_path='./config/model-en.conf', data_dir='/mnt/inspurfs/user-fs/pengwei/mnt/inspurfs/user-fs/pengwei/debug_traffic/./data/toy', dim_bert=768, dim_hidden=512, dp_mode_gpu_num=-1, embedding_dropout_rate=0.5, gpu_mode=1, has_valid=1, iter_num=100000, label_path='./config/label.conf', lambda1=1, lambda2=1, language='en', learning_rate=0.001, linear_dropout_rate=0.5, local_rank=0, lr_bert=1e-05, lr_word_vector=0.0001, max_checkpoint=4096, max_length_sen=256, model_type='BertConCap', multi_gpu=None, n_gram=3, n_loss=3, name_model='debug', optim_type='Adam', per_checkpoint=256, pretrained_model_path='./saved_model/model-f1_macro-650.pth', rnn_type='LSTM', sampled_num=1200, seed=2021, segment_type='char', use_pretrain_bert=True, use_word_vec=True, weight_decay=0)
+2023-09-04 15:31:23 | INFO | train | Num of worker in data loader is: 4
+2023-09-04 15:31:23 | INFO | train | task detail: {'0': {'is_valid': True, 'contribution': 2, 'value': 2}, '1': {'is_valid': True, 'contribution': 16, 'value': 16}, '2': {'is_valid': True, 'contribution': 2, 'value': 2}, '3': {'is_valid': True, 'contribution': 5, 'value': 5}, '4': {'is_valid': True, 'contribution': 2, 'value': 2}, '5': {'is_valid': True, 'contribution': 19, 'value': 19}}
+2023-09-04 15:33:25 | INFO | word_vec | Loading word vectors...
+2023-09-04 15:33:26 | WARNING | word_vec | all word vec is inited by random
+2023-09-04 15:33:26 | INFO | word_vec | 0 words found in vocab
+2023-09-04 15:33:26 | INFO | word_vec | 33 words not found in vocab
+2023-09-04 15:33:33 | INFO | deepnet.data.dataset_text | Use general data sampler.
+2023-09-04 15:33:33 | INFO | train | Dataset Statictis(only for evaluation): train: 388
+2023-09-04 15:33:33 | INFO | train | Dataset Statictis(only for evaluation): valid: 389
+2023-09-04 15:33:33 | INFO | train | Dataset Statictis(only for evaluation): test: 386
+2023-09-04 16:10:02 | INFO | train | Using one GPU: cuda.
+2023-09-04 16:10:02 | INFO | train | Model parameters: Namespace(anchor='anchor', auto_clean_model_mode=1, batch_size=3, bert_config_path='./config/uncased_L-12_H-768_A-12/bert_config.json', bert_is_array=True, bert_pretrained_path='./saved_model/english_bert_base.bin', bert_vocab_path='./config/uncased_L-12_H-768_A-12/vocab.txt', breakpoint=-1, config_path='./config/model-en.conf', data_dir='/mnt/inspurfs/user-fs/pengwei/mnt/inspurfs/user-fs/pengwei/debug_traffic/./data/toy', dim_bert=768, dim_hidden=512, dp_mode_gpu_num=-1, embedding_dropout_rate=0.5, gpu_mode=1, has_valid=1, iter_num=100000, label_path='./config/label.conf', lambda1=1, lambda2=1, language='en', learning_rate=0.001, linear_dropout_rate=0.5, local_rank=0, lr_bert=1e-05, lr_word_vector=0.0001, max_checkpoint=4096, max_length_sen=256, model_type='BertConCap', multi_gpu=None, n_gram=3, n_loss=3, name_model='debug', optim_type='Adam', per_checkpoint=256, pretrained_model_path='./saved_model/model-f1_macro-650.pth', rnn_type='LSTM', sampled_num=1200, seed=2021, segment_type='char', use_pretrain_bert=True, use_word_vec=True, weight_decay=0)
+2023-09-04 16:10:02 | INFO | train | Num of worker in data loader is: 4
+2023-09-04 16:10:02 | INFO | train | task detail: {'0': {'is_valid': True, 'contribution': 2, 'value': 2}, '1': {'is_valid': True, 'contribution': 16, 'value': 16}, '2': {'is_valid': True, 'contribution': 2, 'value': 2}, '3': {'is_valid': True, 'contribution': 5, 'value': 5}, '4': {'is_valid': True, 'contribution': 2, 'value': 2}, '5': {'is_valid': True, 'contribution': 19, 'value': 19}}
+2023-09-04 16:10:07 | INFO | word_vec | Loading word vectors...
+2023-09-04 16:10:08 | WARNING | word_vec | all word vec is inited by random
+2023-09-04 16:10:08 | INFO | word_vec | 0 words found in vocab
+2023-09-04 16:10:08 | INFO | word_vec | 33 words not found in vocab
+2023-09-04 16:10:15 | INFO | deepnet.data.dataset_text | Use general data sampler.
+2023-09-04 16:10:15 | INFO | train | Dataset Statictis(only for evaluation): train: 388
+2023-09-04 16:10:15 | INFO | train | Dataset Statictis(only for evaluation): valid: 389
+2023-09-04 16:10:15 | INFO | train | Dataset Statictis(only for evaluation): test: 386
+2023-09-05 10:18:59 | INFO | train | Using one GPU: cuda.
+2023-09-05 10:18:59 | INFO | train | Model parameters: Namespace(anchor='anchor', auto_clean_model_mode=1, batch_size=3, bert_config_path='./config/uncased_L-12_H-768_A-12/bert_config.json', bert_is_array=True, bert_pretrained_path='./saved_model/english_bert_base.bin', bert_vocab_path='./config/uncased_L-12_H-768_A-12/vocab.txt', breakpoint=-1, config_path='./config/model-en.conf', data_dir='/mnt/inspurfs/user-fs/pengwei/mnt/inspurfs/user-fs/pengwei/debug_traffic/./data/toy', dim_bert=768, dim_hidden=512, dp_mode_gpu_num=-1, embedding_dropout_rate=0.5, gpu_mode=1, has_valid=1, iter_num=100000, label_path='./config/label.conf', lambda1=1, lambda2=1, language='en', learning_rate=0.001, linear_dropout_rate=0.5, local_rank=0, lr_bert=1e-05, lr_word_vector=0.0001, max_checkpoint=4096, max_length_sen=256, model_type='BertConCap', multi_gpu=None, n_gram=3, n_loss=3, name_model='debug', optim_type='Adam', per_checkpoint=256, pretrained_model_path='./saved_model/model-f1_macro-650.pth', rnn_type='LSTM', sampled_num=1200, seed=2021, segment_type='char', use_pretrain_bert=True, use_word_vec=True, weight_decay=0)
+2023-09-05 10:18:59 | INFO | train | Num of worker in data loader is: 4
+2023-09-05 10:18:59 | INFO | train | task detail: {'0': {'is_valid': True, 'contribution': 2, 'value': 2}, '1': {'is_valid': True, 'contribution': 16, 'value': 16}, '2': {'is_valid': True, 'contribution': 2, 'value': 2}, '3': {'is_valid': True, 'contribution': 5, 'value': 5}, '4': {'is_valid': True, 'contribution': 2, 'value': 2}, '5': {'is_valid': True, 'contribution': 19, 'value': 19}}
+2023-09-05 10:19:33 | INFO | word_vec | Loading word vectors...
+2023-09-05 10:19:34 | WARNING | word_vec | all word vec is inited by random
+2023-09-05 10:19:34 | INFO | word_vec | 0 words found in vocab
+2023-09-05 10:19:34 | INFO | word_vec | 33 words not found in vocab
+2023-09-05 10:19:39 | INFO | deepnet.data.dataset_text | Use general data sampler.
+2023-09-05 10:19:39 | INFO | train | Dataset Statictis(only for evaluation): train: 388
+2023-09-05 10:19:39 | INFO | train | Dataset Statictis(only for evaluation): valid: 389
+2023-09-05 10:19:39 | INFO | train | Dataset Statictis(only for evaluation): test: 386
+2023-09-05 15:41:58 | INFO | train | Using one GPU: cuda.
+2023-09-05 15:41:58 | INFO | train | Model parameters: Namespace(anchor='anchor', auto_clean_model_mode=1, batch_size=3, bert_config_path='./config/uncased_L-12_H-768_A-12/bert_config.json', bert_is_array=True, bert_pretrained_path='./saved_model/english_bert_base.bin', bert_vocab_path='./config/uncased_L-12_H-768_A-12/vocab.txt', breakpoint=-1, config_path='./config/model-en.conf', data_dir='/mnt/inspurfs/user-fs/pengwei/mnt/inspurfs/user-fs/pengwei/debug_traffic/./data/toy', dim_bert=768, dim_hidden=512, dp_mode_gpu_num=-1, embedding_dropout_rate=0.5, gpu_mode=1, has_valid=1, iter_num=100000, label_path='./config/label.conf', lambda1=1, lambda2=1, language='en', learning_rate=0.001, linear_dropout_rate=0.5, local_rank=0, lr_bert=1e-05, lr_word_vector=0.0001, max_checkpoint=4096, max_length_sen=256, model_type='BertConCap', multi_gpu=None, n_gram=3, n_loss=3, name_model='debug', optim_type='Adam', per_checkpoint=256, pretrained_model_path='./saved_model/model-f1_macro-650.pth', rnn_type='LSTM', sampled_num=1200, seed=2021, segment_type='char', use_pretrain_bert=True, use_word_vec=True, weight_decay=0)
+2023-09-05 15:41:58 | INFO | train | Num of worker in data loader is: 4
+2023-09-05 15:41:58 | INFO | train | task detail: {'0': {'is_valid': True, 'contribution': 2, 'value': 2}, '1': {'is_valid': True, 'contribution': 16, 'value': 16}, '2': {'is_valid': True, 'contribution': 2, 'value': 2}, '3': {'is_valid': True, 'contribution': 5, 'value': 5}, '4': {'is_valid': True, 'contribution': 2, 'value': 2}, '5': {'is_valid': True, 'contribution': 19, 'value': 19}}
+2023-09-05 15:42:02 | INFO | word_vec | Loading word vectors...
+2023-09-05 15:42:03 | WARNING | word_vec | all word vec is inited by random
+2023-09-05 15:42:03 | INFO | word_vec | 0 words found in vocab
+2023-09-05 15:42:03 | INFO | word_vec | 33 words not found in vocab
+2023-09-05 15:42:08 | INFO | deepnet.data.dataset_text | Use general data sampler.
+2023-09-05 15:42:08 | INFO | train | Dataset Statictis(only for evaluation): train: 388
+2023-09-05 15:42:08 | INFO | train | Dataset Statictis(only for evaluation): valid: 389
+2023-09-05 15:42:09 | INFO | train | Dataset Statictis(only for evaluation): test: 386
+2023-09-05 15:42:11 | INFO | train | ----------------------------------------------------------------------------------
+2023-09-05 15:42:11 | INFO | train | Time of iter training 0.92 s
+2023-09-05 15:42:11 | INFO | train | On iter step 0:, global step 0 Loss-step [1.0000 1.0000 1.0000]
+2023-09-05 17:37:32 | INFO | train | Using one GPU: cuda.
+2023-09-05 17:37:32 | INFO | train | Model parameters: Namespace(anchor='anchor', auto_clean_model_mode=1, batch_size=4, bert_config_path='./config/uncased_L-12_H-768_A-12/bert_config.json', bert_is_array=True, bert_pretrained_path='./saved_model/english_bert_base.bin', bert_vocab_path='./config/uncased_L-12_H-768_A-12/vocab.txt', breakpoint=-1, config_path='./config/model-en.conf', data_dir='/mnt/inspurfs/user-fs/pengwei/mnt/inspurfs/user-fs/pengwei/debug_traffic/./data/toy', dim_bert=768, dim_hidden=512, dp_mode_gpu_num=-1, embedding_dropout_rate=0.5, gpu_mode=1, has_valid=1, iter_num=100000, label_path='./config/label.conf', lambda1=1, lambda2=1, language='en', learning_rate=0.001, linear_dropout_rate=0.5, local_rank=0, lr_bert=1e-05, lr_word_vector=0.0001, max_checkpoint=4096, max_length_sen=256, model_type='BertConCap', multi_gpu=None, n_gram=3, n_loss=3, name_model='debug', optim_type='Adam', per_checkpoint=256, pretrained_model_path='./saved_model/model-f1_macro-650.pth', rnn_type='LSTM', sampled_num=1200, seed=2021, segment_type='char', use_pretrain_bert=True, use_word_vec=True, weight_decay=0)
+2023-09-05 17:37:32 | INFO | train | Num of worker in data loader is: 4
+2023-09-05 17:37:32 | INFO | train | task detail: {'0': {'is_valid': True, 'contribution': 2, 'value': 2}, '1': {'is_valid': True, 'contribution': 16, 'value': 16}, '2': {'is_valid': True, 'contribution': 2, 'value': 2}, '3': {'is_valid': True, 'contribution': 5, 'value': 5}, '4': {'is_valid': True, 'contribution': 2, 'value': 2}, '5': {'is_valid': True, 'contribution': 19, 'value': 19}}
+2023-09-05 17:38:19 | INFO | word_vec | Loading word vectors...
+2023-09-05 17:38:20 | WARNING | word_vec | all word vec is inited by random
+2023-09-05 17:38:20 | INFO | word_vec | 0 words found in vocab
+2023-09-05 17:38:20 | INFO | word_vec | 33 words not found in vocab
+2023-09-05 17:38:25 | INFO | deepnet.data.dataset_text | Use general data sampler.
+2023-09-05 17:38:26 | INFO | train | Dataset Statictis(only for evaluation): train: 388
+2023-09-05 17:38:26 | INFO | train | Dataset Statictis(only for evaluation): valid: 389
+2023-09-05 17:38:26 | INFO | train | Dataset Statictis(only for evaluation): test: 386
+2023-09-05 17:38:29 | INFO | train | ----------------------------------------------------------------------------------
+2023-09-05 17:38:29 | INFO | train | Time of iter training 1.06 s
+2023-09-05 17:38:29 | INFO | train | On iter step 0:, global step 0 Loss-step [1.0000 1.0000 1.0000]
+2023-09-05 17:40:55 | INFO | train | Using one GPU: cuda.
+2023-09-05 17:40:55 | INFO | train | Model parameters: Namespace(anchor='anchor', auto_clean_model_mode=1, batch_size=4, bert_config_path='./config/uncased_L-12_H-768_A-12/bert_config.json', bert_is_array=True, bert_pretrained_path='./saved_model/english_bert_base.bin', bert_vocab_path='./config/uncased_L-12_H-768_A-12/vocab.txt', breakpoint=-1, config_path='./config/model-en.conf', data_dir='/mnt/inspurfs/user-fs/pengwei/mnt/inspurfs/user-fs/pengwei/debug_traffic/./data/toy', dim_bert=768, dim_hidden=512, dp_mode_gpu_num=-1, embedding_dropout_rate=0.5, gpu_mode=1, has_valid=1, iter_num=100000, label_path='./config/label.conf', lambda1=1, lambda2=1, language='en', learning_rate=0.001, linear_dropout_rate=0.5, local_rank=0, lr_bert=1e-05, lr_word_vector=0.0001, max_checkpoint=4096, max_length_sen=256, model_type='BertConCap', multi_gpu=None, n_gram=3, n_loss=3, name_model='debug', optim_type='Adam', per_checkpoint=256, pretrained_model_path='./saved_model/model-f1_macro-650.pth', rnn_type='LSTM', sampled_num=1200, seed=2021, segment_type='char', use_pretrain_bert=True, use_word_vec=True, weight_decay=0)
+2023-09-05 17:40:55 | INFO | train | Num of worker in data loader is: 4
+2023-09-05 17:40:55 | INFO | train | task detail: {'0': {'is_valid': True, 'contribution': 2, 'value': 2}, '1': {'is_valid': True, 'contribution': 16, 'value': 16}, '2': {'is_valid': True, 'contribution': 2, 'value': 2}, '3': {'is_valid': True, 'contribution': 5, 'value': 5}, '4': {'is_valid': True, 'contribution': 2, 'value': 2}, '5': {'is_valid': True, 'contribution': 19, 'value': 19}}
+2023-09-05 17:41:00 | INFO | word_vec | Loading word vectors...
+2023-09-05 17:41:00 | WARNING | word_vec | all word vec is inited by random
+2023-09-05 17:41:00 | INFO | word_vec | 0 words found in vocab
+2023-09-05 17:41:00 | INFO | word_vec | 33 words not found in vocab
+2023-09-05 17:41:06 | INFO | deepnet.data.dataset_text | Use general data sampler.
+2023-09-05 17:41:06 | INFO | train | Dataset Statictis(only for evaluation): train: 388
+2023-09-05 17:41:06 | INFO | train | Dataset Statictis(only for evaluation): valid: 389
+2023-09-05 17:41:06 | INFO | train | Dataset Statictis(only for evaluation): test: 386
+2023-09-05 17:42:24 | INFO | train | Using one GPU: cuda.
+2023-09-05 17:42:24 | INFO | train | Model parameters: Namespace(anchor='anchor', auto_clean_model_mode=1, batch_size=4, bert_config_path='./config/uncased_L-12_H-768_A-12/bert_config.json', bert_is_array=True, bert_pretrained_path='./saved_model/english_bert_base.bin', bert_vocab_path='./config/uncased_L-12_H-768_A-12/vocab.txt', breakpoint=-1, config_path='./config/model-en.conf', data_dir='/mnt/inspurfs/user-fs/pengwei/mnt/inspurfs/user-fs/pengwei/debug_traffic/./data/toy', dim_bert=768, dim_hidden=512, dp_mode_gpu_num=-1, embedding_dropout_rate=0.5, gpu_mode=1, has_valid=1, iter_num=100000, label_path='./config/label.conf', lambda1=1, lambda2=1, language='en', learning_rate=0.001, linear_dropout_rate=0.5, local_rank=0, lr_bert=1e-05, lr_word_vector=0.0001, max_checkpoint=4096, max_length_sen=256, model_type='BertConCap', multi_gpu=None, n_gram=3, n_loss=3, name_model='debug', optim_type='Adam', per_checkpoint=256, pretrained_model_path='./saved_model/model-f1_macro-650.pth', rnn_type='LSTM', sampled_num=1200, seed=2021, segment_type='char', use_pretrain_bert=True, use_word_vec=True, weight_decay=0)
+2023-09-05 17:42:24 | INFO | train | Num of worker in data loader is: 4
+2023-09-05 17:42:24 | INFO | train | task detail: {'0': {'is_valid': True, 'contribution': 2, 'value': 2}, '1': {'is_valid': True, 'contribution': 16, 'value': 16}, '2': {'is_valid': True, 'contribution': 2, 'value': 2}, '3': {'is_valid': True, 'contribution': 5, 'value': 5}, '4': {'is_valid': True, 'contribution': 2, 'value': 2}, '5': {'is_valid': True, 'contribution': 19, 'value': 19}}
+2023-09-05 17:42:31 | INFO | word_vec | Loading word vectors...
+2023-09-05 17:42:32 | WARNING | word_vec | all word vec is inited by random
+2023-09-05 17:42:32 | INFO | word_vec | 0 words found in vocab
+2023-09-05 17:42:32 | INFO | word_vec | 33 words not found in vocab
+2023-09-05 17:42:37 | INFO | deepnet.data.dataset_text | Use general data sampler.
+2023-09-05 17:42:37 | INFO | train | Dataset Statictis(only for evaluation): train: 388
+2023-09-05 17:42:37 | INFO | train | Dataset Statictis(only for evaluation): valid: 389
+2023-09-05 17:42:37 | INFO | train | Dataset Statictis(only for evaluation): test: 386
+2023-09-05 19:56:43 | INFO | train | Using one GPU: cuda.
+2023-09-05 19:56:43 | INFO | train | Model parameters: Namespace(anchor='anchor', auto_clean_model_mode=1, batch_size=4, bert_config_path='./config/uncased_L-12_H-768_A-12/bert_config.json', bert_is_array=True, bert_pretrained_path='./saved_model/english_bert_base.bin', bert_vocab_path='./config/uncased_L-12_H-768_A-12/vocab.txt', breakpoint=-1, config_path='./config/model-en.conf', data_dir='/mnt/inspurfs/user-fs/pengwei/mnt/inspurfs/user-fs/pengwei/debug_traffic/./data/toy', dim_bert=768, dim_hidden=512, dp_mode_gpu_num=-1, embedding_dropout_rate=0.5, gpu_mode=1, has_valid=1, iter_num=100000, label_path='./config/label.conf', lambda1=1, lambda2=1, language='en', learning_rate=0.001, linear_dropout_rate=0.5, local_rank=0, lr_bert=1e-05, lr_word_vector=0.0001, max_checkpoint=4096, max_length_sen=256, model_type='BertConCap', multi_gpu=None, n_gram=3, n_loss=3, name_model='debug', newvocab_path='./config/encryptd_vocab.txt', optim_type='Adam', per_checkpoint=256, pretrained_model_path='./saved_model/model-f1_macro-650.pth', rnn_type='LSTM', sampled_num=1200, seed=2021, segment_type='char', use_pretrain_bert=True, use_word_vec=True, weight_decay=0)
+2023-09-05 19:56:43 | INFO | train | Num of worker in data loader is: 4
+2023-09-05 19:56:43 | INFO | train | task detail: {'0': {'is_valid': True, 'contribution': 2, 'value': 2}, '1': {'is_valid': True, 'contribution': 16, 'value': 16}, '2': {'is_valid': True, 'contribution': 2, 'value': 2}, '3': {'is_valid': True, 'contribution': 5, 'value': 5}, '4': {'is_valid': True, 'contribution': 2, 'value': 2}, '5': {'is_valid': True, 'contribution': 19, 'value': 19}}
+2023-09-05 19:57:23 | INFO | train | Using one GPU: cuda.
+2023-09-05 19:57:23 | INFO | train | Model parameters: Namespace(anchor='anchor', auto_clean_model_mode=1, batch_size=4, bert_config_path='./config/uncased_L-12_H-768_A-12/bert_config.json', bert_is_array=True, bert_pretrained_path='./saved_model/english_bert_base.bin', bert_vocab_path='./config/uncased_L-12_H-768_A-12/vocab.txt', breakpoint=-1, config_path='./config/model-en.conf', data_dir='/mnt/inspurfs/user-fs/pengwei/mnt/inspurfs/user-fs/pengwei/debug_traffic/./data/toy', dim_bert=768, dim_hidden=512, dp_mode_gpu_num=-1, embedding_dropout_rate=0.5, gpu_mode=1, has_valid=1, iter_num=100000, label_path='./config/label.conf', lambda1=1, lambda2=1, language='en', learning_rate=0.001, linear_dropout_rate=0.5, local_rank=0, lr_bert=1e-05, lr_word_vector=0.0001, max_checkpoint=4096, max_length_sen=256, model_type='BertConCap', multi_gpu=None, n_gram=3, n_loss=3, name_model='debug', newvocab_path='./config/encryptd_vocab.txt', optim_type='Adam', per_checkpoint=256, pretrained_model_path='./saved_model/model-f1_macro-650.pth', rnn_type='LSTM', sampled_num=1200, seed=2021, segment_type='char', use_pretrain_bert=True, use_word_vec=True, weight_decay=0)
+2023-09-05 19:57:23 | INFO | train | Num of worker in data loader is: 4
+2023-09-05 19:57:23 | INFO | train | task detail: {'0': {'is_valid': True, 'contribution': 2, 'value': 2}, '1': {'is_valid': True, 'contribution': 16, 'value': 16}, '2': {'is_valid': True, 'contribution': 2, 'value': 2}, '3': {'is_valid': True, 'contribution': 5, 'value': 5}, '4': {'is_valid': True, 'contribution': 2, 'value': 2}, '5': {'is_valid': True, 'contribution': 19, 'value': 19}}
+2023-09-05 20:00:04 | INFO | word_vec | Loading word vectors...
+2023-09-05 20:00:12 | WARNING | word_vec | all word vec is inited by random
+2023-09-05 20:00:21 | INFO | word_vec | 0 words found in vocab
+2023-09-05 20:00:21 | INFO | word_vec | 2615 words not found in vocab
+2023-09-05 20:01:59 | INFO | deepnet.data.dataset_text | Use general data sampler.
+2023-09-05 20:01:59 | INFO | train | Dataset Statictis(only for evaluation): train: 388
+2023-09-05 20:01:59 | INFO | train | Dataset Statictis(only for evaluation): valid: 389
+2023-09-05 20:01:59 | INFO | train | Dataset Statictis(only for evaluation): test: 386
+2023-09-05 20:41:24 | INFO | train | Using one GPU: cuda.
+2023-09-05 20:41:24 | INFO | train | Model parameters: Namespace(anchor='anchor', auto_clean_model_mode=1, batch_size=4, bert_config_path='./config/uncased_L-12_H-768_A-12/bert_config.json', bert_is_array=True, bert_pretrained_path='./saved_model/english_bert_base.bin', bert_vocab_path='./config/uncased_L-12_H-768_A-12/vocab.txt', breakpoint=-1, config_path='./config/model-en.conf', data_dir='/mnt/inspurfs/user-fs/pengwei/mnt/inspurfs/user-fs/pengwei/debug_traffic/./data/toy', dim_bert=768, dim_hidden=512, dp_mode_gpu_num=-1, embedding_dropout_rate=0.5, gpu_mode=1, has_valid=1, iter_num=100000, label_path='./config/label.conf', lambda1=1, lambda2=1, language='en', learning_rate=0.001, linear_dropout_rate=0.5, local_rank=0, lr_bert=1e-05, lr_word_vector=0.0001, max_checkpoint=4096, max_length_sen=256, model_type='BertConCap', multi_gpu=None, n_gram=3, n_loss=3, name_model='debug', newvocab_path='./config/encryptd_vocab.txt', optim_type='Adam', per_checkpoint=256, pretrained_model_path='./saved_model/model-f1_macro-650.pth', rnn_type='LSTM', sampled_num=1200, seed=2021, segment_type='char', use_pretrain_bert=True, use_word_vec=True, weight_decay=0)
+2023-09-05 20:41:24 | INFO | train | Num of worker in data loader is: 4
+2023-09-05 20:41:24 | INFO | train | task detail: {'0': {'is_valid': True, 'contribution': 2, 'value': 2}, '1': {'is_valid': True, 'contribution': 16, 'value': 16}, '2': {'is_valid': True, 'contribution': 2, 'value': 2}, '3': {'is_valid': True, 'contribution': 5, 'value': 5}, '4': {'is_valid': True, 'contribution': 2, 'value': 2}, '5': {'is_valid': True, 'contribution': 19, 'value': 19}}
+2023-09-05 20:41:26 | INFO | word_vec | Loading word vectors...
+2023-09-05 20:41:27 | WARNING | word_vec | all word vec is inited by random
+2023-09-05 20:41:27 | INFO | word_vec | 0 words found in vocab
+2023-09-05 20:41:27 | INFO | word_vec | 2615 words not found in vocab
+2023-09-05 20:41:32 | INFO | deepnet.data.dataset_text | Use general data sampler.
+2023-09-05 20:41:32 | INFO | train | Dataset Statictis(only for evaluation): train: 388
+2023-09-05 20:41:33 | INFO | train | Dataset Statictis(only for evaluation): valid: 389
+2023-09-05 20:41:33 | INFO | train | Dataset Statictis(only for evaluation): test: 386
+2023-09-05 20:42:31 | INFO | train | Using one GPU: cuda.
+2023-09-05 20:42:31 | INFO | train | Model parameters: Namespace(anchor='anchor', auto_clean_model_mode=1, batch_size=4, bert_config_path='./config/uncased_L-12_H-768_A-12/bert_config.json', bert_is_array=True, bert_pretrained_path='./saved_model/english_bert_base.bin', bert_vocab_path='./config/uncased_L-12_H-768_A-12/vocab.txt', breakpoint=-1, config_path='./config/model-en.conf', data_dir='/mnt/inspurfs/user-fs/pengwei/mnt/inspurfs/user-fs/pengwei/debug_traffic/./data/toy', dim_bert=768, dim_hidden=512, dp_mode_gpu_num=-1, embedding_dropout_rate=0.5, gpu_mode=1, has_valid=1, iter_num=100000, label_path='./config/label.conf', lambda1=1, lambda2=1, language='en', learning_rate=0.001, linear_dropout_rate=0.5, local_rank=0, lr_bert=1e-05, lr_word_vector=0.0001, max_checkpoint=4096, max_length_sen=256, model_type='BertConCap', multi_gpu=None, n_gram=3, n_loss=3, name_model='debug', newvocab_path='./config/encryptd_vocab.txt', optim_type='Adam', per_checkpoint=256, pretrained_model_path='./saved_model/model-f1_macro-650.pth', rnn_type='LSTM', sampled_num=1200, seed=2021, segment_type='char', use_pretrain_bert=True, use_word_vec=True, weight_decay=0)
+2023-09-05 20:42:31 | INFO | train | Num of worker in data loader is: 4
+2023-09-05 20:42:31 | INFO | train | task detail: {'0': {'is_valid': True, 'contribution': 2, 'value': 2}, '1': {'is_valid': True, 'contribution': 16, 'value': 16}, '2': {'is_valid': True, 'contribution': 2, 'value': 2}, '3': {'is_valid': True, 'contribution': 5, 'value': 5}, '4': {'is_valid': True, 'contribution': 2, 'value': 2}, '5': {'is_valid': True, 'contribution': 19, 'value': 19}}
+2023-09-05 20:42:34 | INFO | word_vec | Loading word vectors...
+2023-09-05 20:42:35 | WARNING | word_vec | all word vec is inited by random
+2023-09-05 20:42:35 | INFO | word_vec | 0 words found in vocab
+2023-09-05 20:42:35 | INFO | word_vec | 2615 words not found in vocab
+2023-09-05 20:42:42 | INFO | deepnet.data.dataset_text | Use general data sampler.
+2023-09-05 20:42:42 | INFO | train | Dataset Statictis(only for evaluation): train: 388
+2023-09-05 20:42:43 | INFO | train | Dataset Statictis(only for evaluation): valid: 389
+2023-09-05 20:42:43 | INFO | train | Dataset Statictis(only for evaluation): test: 386
+2023-09-05 20:43:15 | INFO | train | Using one GPU: cuda.
+2023-09-05 20:43:15 | INFO | train | Model parameters: Namespace(anchor='anchor', auto_clean_model_mode=1, batch_size=4, bert_config_path='./config/uncased_L-12_H-768_A-12/bert_config.json', bert_is_array=True, bert_pretrained_path='./saved_model/english_bert_base.bin', bert_vocab_path='./config/uncased_L-12_H-768_A-12/vocab.txt', breakpoint=-1, config_path='./config/model-en.conf', data_dir='/mnt/inspurfs/user-fs/pengwei/mnt/inspurfs/user-fs/pengwei/debug_traffic/./data/toy', dim_bert=768, dim_hidden=512, dp_mode_gpu_num=-1, embedding_dropout_rate=0.5, gpu_mode=1, has_valid=1, iter_num=100000, label_path='./config/label.conf', lambda1=1, lambda2=1, language='en', learning_rate=0.001, linear_dropout_rate=0.5, local_rank=0, lr_bert=1e-05, lr_word_vector=0.0001, max_checkpoint=4096, max_length_sen=256, model_type='BertConCap', multi_gpu=None, n_gram=3, n_loss=3, name_model='debug', newvocab_path='./config/encryptd_vocab.txt', optim_type='Adam', per_checkpoint=256, pretrained_model_path='./saved_model/model-f1_macro-650.pth', rnn_type='LSTM', sampled_num=1200, seed=2021, segment_type='char', use_pretrain_bert=True, use_word_vec=True, weight_decay=0)
+2023-09-05 20:43:15 | INFO | train | Num of worker in data loader is: 4
+2023-09-05 20:43:15 | INFO | train | task detail: {'0': {'is_valid': True, 'contribution': 2, 'value': 2}, '1': {'is_valid': True, 'contribution': 16, 'value': 16}, '2': {'is_valid': True, 'contribution': 2, 'value': 2}, '3': {'is_valid': True, 'contribution': 5, 'value': 5}, '4': {'is_valid': True, 'contribution': 2, 'value': 2}, '5': {'is_valid': True, 'contribution': 19, 'value': 19}}
+2023-09-05 20:43:16 | INFO | word_vec | Loading word vectors...
+2023-09-05 20:43:16 | WARNING | word_vec | all word vec is inited by random
+2023-09-05 20:43:17 | INFO | word_vec | 0 words found in vocab
+2023-09-05 20:43:17 | INFO | word_vec | 2615 words not found in vocab
+2023-09-05 20:43:22 | INFO | deepnet.data.dataset_text | Use general data sampler.
+2023-09-05 20:43:22 | INFO | train | Dataset Statictis(only for evaluation): train: 388
+2023-09-05 20:43:23 | INFO | train | Dataset Statictis(only for evaluation): valid: 389
+2023-09-05 20:43:23 | INFO | train | Dataset Statictis(only for evaluation): test: 386
+2023-09-06 10:01:47 | INFO | train | Using one GPU: cuda.
+2023-09-06 10:01:47 | INFO | train | Model parameters: Namespace(anchor='anchor', auto_clean_model_mode=1, batch_size=4, bert_config_path='./config/uncased_L-12_H-768_A-12/bert_config.json', bert_is_array=True, bert_pretrained_path='./saved_model/english_bert_base.bin', bert_vocab_path='./config/uncased_L-12_H-768_A-12/vocab.txt', breakpoint=-1, config_path='./config/model-en.conf', data_dir='/mnt/inspurfs/user-fs/pengwei/mnt/inspurfs/user-fs/pengwei/debug_traffic/./data/toy', dim_bert=768, dim_hidden=512, dp_mode_gpu_num=-1, embedding_dropout_rate=0.5, gpu_mode=1, has_valid=1, iter_num=100000, label_path='./config/label.conf', lambda1=1, lambda2=1, language='en', learning_rate=0.001, linear_dropout_rate=0.5, local_rank=0, lr_bert=1e-05, lr_word_vector=0.0001, max_checkpoint=4096, max_length_sen=256, model_type='BertConCap', multi_gpu=None, n_gram=3, n_loss=3, name_model='debug', newvocab_path='./config/encryptd_vocab.txt', optim_type='Adam', per_checkpoint=256, pretrained_model_path='./saved_model/model-f1_macro-650.pth', rnn_type='LSTM', sampled_num=1200, seed=2021, segment_type='char', use_pretrain_bert=True, use_word_vec=True, weight_decay=0)
+2023-09-06 10:01:47 | INFO | train | Num of worker in data loader is: 4
+2023-09-06 10:01:47 | INFO | train | task detail: {'0': {'is_valid': True, 'contribution': 2, 'value': 2}, '1': {'is_valid': True, 'contribution': 16, 'value': 16}, '2': {'is_valid': True, 'contribution': 2, 'value': 2}, '3': {'is_valid': True, 'contribution': 5, 'value': 5}, '4': {'is_valid': True, 'contribution': 2, 'value': 2}, '5': {'is_valid': True, 'contribution': 19, 'value': 19}}
+2023-09-06 10:02:02 | INFO | word_vec | Loading word vectors...
+2023-09-06 10:02:15 | WARNING | word_vec | all word vec is inited by random
+2023-09-06 10:04:44 | INFO | word_vec | 0 words found in vocab
+2023-09-06 10:04:44 | INFO | word_vec | 2615 words not found in vocab
+2023-09-06 10:18:56 | INFO | deepnet.data.dataset_text | Use general data sampler.
+2023-09-06 10:18:56 | INFO | train | Dataset Statictis(only for evaluation): train: 388
+2023-09-06 10:18:56 | INFO | train | Dataset Statictis(only for evaluation): valid: 389
+2023-09-06 10:18:56 | INFO | train | Dataset Statictis(only for evaluation): test: 386
+2023-09-06 10:53:00 | INFO | train | Using one GPU: cuda.
+2023-09-06 10:53:00 | INFO | train | Model parameters: Namespace(anchor='anchor', auto_clean_model_mode=1, batch_size=4, bert_config_path='./config/uncased_L-12_H-768_A-12/bert_config.json', bert_is_array=True, bert_pretrained_path='./saved_model/english_bert_base.bin', bert_vocab_path='./config/uncased_L-12_H-768_A-12/vocab.txt', breakpoint=-1, config_path='./config/model-en.conf', data_dir='/mnt/inspurfs/user-fs/pengwei/mnt/inspurfs/user-fs/pengwei/debug_traffic/./data/toy', dim_bert=768, dim_hidden=512, dp_mode_gpu_num=-1, embedding_dropout_rate=0.5, gpu_mode=1, has_valid=1, iter_num=100000, label_path='./config/label.conf', lambda1=1, lambda2=1, language='en', learning_rate=0.001, linear_dropout_rate=0.5, local_rank=0, lr_bert=1e-05, lr_word_vector=0.0001, max_checkpoint=4096, max_length_sen=256, model_type='BertConCap', multi_gpu=None, n_gram=3, n_loss=3, name_model='debug', newvocab_path='./config/encryptd_vocab.txt', optim_type='Adam', per_checkpoint=256, pretrained_model_path='./saved_model/model-f1_macro-650.pth', rnn_type='LSTM', sampled_num=1200, seed=2021, segment_type='char', use_pretrain_bert=True, use_word_vec=True, weight_decay=0)
+2023-09-06 10:53:00 | INFO | train | Num of worker in data loader is: 4
+2023-09-06 10:53:00 | INFO | train | task detail: {'0': {'is_valid': True, 'contribution': 2, 'value': 2}, '1': {'is_valid': True, 'contribution': 16, 'value': 16}, '2': {'is_valid': True, 'contribution': 2, 'value': 2}, '3': {'is_valid': True, 'contribution': 5, 'value': 5}, '4': {'is_valid': True, 'contribution': 2, 'value': 2}, '5': {'is_valid': True, 'contribution': 19, 'value': 19}}
+2023-09-06 10:53:08 | INFO | word_vec | Loading word vectors...
+2023-09-06 10:53:09 | WARNING | word_vec | all word vec is inited by random
+2023-09-06 10:53:09 | INFO | word_vec | 0 words found in vocab
+2023-09-06 10:53:09 | INFO | word_vec | 33 words not found in vocab
+2023-09-06 10:53:14 | INFO | deepnet.data.dataset_text | Use general data sampler.
+2023-09-06 10:53:15 | INFO | train | Dataset Statictis(only for evaluation): train: 388
+2023-09-06 10:53:15 | INFO | train | Dataset Statictis(only for evaluation): valid: 389
+2023-09-06 10:53:15 | INFO | train | Dataset Statictis(only for evaluation): test: 386
+2023-09-06 11:02:34 | INFO | train | Using one GPU: cuda.
+2023-09-06 11:02:34 | INFO | train | Model parameters: Namespace(anchor='anchor', auto_clean_model_mode=1, batch_size=4, bert_config_path='./config/uncased_L-12_H-768_A-12/bert_config.json', bert_is_array=True, bert_pretrained_path='./saved_model/english_bert_base.bin', bert_vocab_path='./config/uncased_L-12_H-768_A-12/vocab.txt', breakpoint=-1, config_path='./config/model-en.conf', data_dir='/mnt/inspurfs/user-fs/pengwei/mnt/inspurfs/user-fs/pengwei/debug_traffic/./data/toy', dim_bert=768, dim_hidden=512, dp_mode_gpu_num=-1, embedding_dropout_rate=0.5, gpu_mode=1, has_valid=1, iter_num=100000, label_path='./config/label.conf', lambda1=1, lambda2=1, language='en', learning_rate=0.001, linear_dropout_rate=0.5, local_rank=0, lr_bert=1e-05, lr_word_vector=0.0001, max_checkpoint=4096, max_length_sen=256, model_type='BertConCap', multi_gpu=None, n_gram=3, n_loss=3, name_model='debug', newvocab_path='./config/encryptd_vocab.txt', optim_type='Adam', per_checkpoint=256, pretrained_model_path='./saved_model/model-f1_macro-650.pth', rnn_type='LSTM', sampled_num=1200, seed=2021, segment_type='char', use_pretrain_bert=True, use_word_vec=True, weight_decay=0)
+2023-09-06 11:02:34 | INFO | train | Num of worker in data loader is: 4
+2023-09-06 11:02:34 | INFO | train | task detail: {'0': {'is_valid': True, 'contribution': 2, 'value': 2}, '1': {'is_valid': True, 'contribution': 16, 'value': 16}, '2': {'is_valid': True, 'contribution': 2, 'value': 2}, '3': {'is_valid': True, 'contribution': 5, 'value': 5}, '4': {'is_valid': True, 'contribution': 2, 'value': 2}, '5': {'is_valid': True, 'contribution': 19, 'value': 19}}
+2023-09-06 11:02:37 | INFO | word_vec | Loading word vectors...
+2023-09-06 11:02:37 | WARNING | word_vec | all word vec is inited by random
+2023-09-06 11:02:37 | INFO | word_vec | 0 words found in vocab
+2023-09-06 11:02:37 | INFO | word_vec | 33 words not found in vocab
+2023-09-06 11:02:45 | INFO | deepnet.data.dataset_text | Use general data sampler.
+2023-09-06 11:02:46 | INFO | train | Dataset Statictis(only for evaluation): train: 388
+2023-09-06 11:02:46 | INFO | train | Dataset Statictis(only for evaluation): valid: 389
+2023-09-06 11:02:46 | INFO | train | Dataset Statictis(only for evaluation): test: 386
+2023-09-06 11:16:00 | INFO | train | Using one GPU: cuda.
+2023-09-06 11:16:00 | INFO | train | Model parameters: Namespace(anchor='anchor', auto_clean_model_mode=1, batch_size=4, bert_config_path='./config/uncased_L-12_H-768_A-12/bert_config.json', bert_is_array=True, bert_pretrained_path='./saved_model/english_bert_base.bin', bert_vocab_path='./config/uncased_L-12_H-768_A-12/vocab.txt', breakpoint=-1, config_path='./config/model-en.conf', data_dir='/mnt/inspurfs/user-fs/pengwei/mnt/inspurfs/user-fs/pengwei/debug_traffic/./data/toy', dim_bert=768, dim_hidden=512, dp_mode_gpu_num=-1, embedding_dropout_rate=0.5, gpu_mode=1, has_valid=1, iter_num=100000, label_path='./config/label.conf', lambda1=1, lambda2=1, language='en', learning_rate=0.001, linear_dropout_rate=0.5, local_rank=0, lr_bert=1e-05, lr_word_vector=0.0001, max_checkpoint=4096, max_length_sen=256, model_type='BertConCap', multi_gpu=None, n_gram=3, n_loss=3, name_model='debug', newvocab_path='./config/encryptd_vocab.txt', optim_type='Adam', per_checkpoint=256, pretrained_model_path='./saved_model/model-f1_macro-650.pth', rnn_type='LSTM', sampled_num=1200, seed=2021, segment_type='char', use_pretrain_bert=True, use_word_vec=True, weight_decay=0)
+2023-09-06 11:16:00 | INFO | train | Num of worker in data loader is: 4
+2023-09-06 11:16:00 | INFO | train | task detail: {'0': {'is_valid': True, 'contribution': 2, 'value': 2}, '1': {'is_valid': True, 'contribution': 16, 'value': 16}, '2': {'is_valid': True, 'contribution': 2, 'value': 2}, '3': {'is_valid': True, 'contribution': 5, 'value': 5}, '4': {'is_valid': True, 'contribution': 2, 'value': 2}, '5': {'is_valid': True, 'contribution': 19, 'value': 19}}
+2023-09-06 11:16:12 | INFO | word_vec | Loading word vectors...
+2023-09-06 11:16:14 | WARNING | word_vec | all word vec is inited by random
+2023-09-06 11:16:14 | INFO | word_vec | 0 words found in vocab
+2023-09-06 11:16:14 | INFO | word_vec | 33 words not found in vocab
+2023-09-06 11:17:33 | INFO | train | Using one GPU: cuda.
+2023-09-06 11:17:33 | INFO | train | Model parameters: Namespace(anchor='anchor', auto_clean_model_mode=1, batch_size=4, bert_config_path='./config/uncased_L-12_H-768_A-12/bert_config.json', bert_is_array=True, bert_pretrained_path='./saved_model/english_bert_base.bin', bert_vocab_path='./config/uncased_L-12_H-768_A-12/vocab.txt', breakpoint=-1, config_path='./config/model-en.conf', data_dir='/mnt/inspurfs/user-fs/pengwei/mnt/inspurfs/user-fs/pengwei/debug_traffic/./data/toy', dim_bert=768, dim_hidden=512, dp_mode_gpu_num=-1, embedding_dropout_rate=0.5, gpu_mode=1, has_valid=1, iter_num=100000, label_path='./config/label.conf', lambda1=1, lambda2=1, language='en', learning_rate=0.001, linear_dropout_rate=0.5, local_rank=0, lr_bert=1e-05, lr_word_vector=0.0001, max_checkpoint=4096, max_length_sen=256, model_type='BertConCap', multi_gpu=None, n_gram=3, n_loss=3, name_model='debug', newvocab_path='./config/encryptd_vocab.txt', optim_type='Adam', per_checkpoint=256, pretrained_model_path='./saved_model/model-f1_macro-650.pth', rnn_type='LSTM', sampled_num=1200, seed=2021, segment_type='char', use_pretrain_bert=True, use_word_vec=True, weight_decay=0)
+2023-09-06 11:17:33 | INFO | train | Num of worker in data loader is: 4
+2023-09-06 11:17:33 | INFO | train | task detail: {'0': {'is_valid': True, 'contribution': 2, 'value': 2}, '1': {'is_valid': True, 'contribution': 16, 'value': 16}, '2': {'is_valid': True, 'contribution': 2, 'value': 2}, '3': {'is_valid': True, 'contribution': 5, 'value': 5}, '4': {'is_valid': True, 'contribution': 2, 'value': 2}, '5': {'is_valid': True, 'contribution': 19, 'value': 19}}
+2023-09-06 11:17:35 | INFO | word_vec | Loading word vectors...
+2023-09-06 11:17:36 | WARNING | word_vec | all word vec is inited by random
+2023-09-06 11:17:36 | INFO | word_vec | 0 words found in vocab
+2023-09-06 11:17:36 | INFO | word_vec | 33 words not found in vocab
+2023-09-06 11:17:42 | INFO | deepnet.data.dataset_text | Use general data sampler.
+2023-09-06 11:17:42 | INFO | train | Dataset Statictis(only for evaluation): train: 388
+2023-09-06 11:17:43 | INFO | train | Dataset Statictis(only for evaluation): valid: 389
+2023-09-06 11:17:43 | INFO | train | Dataset Statictis(only for evaluation): test: 386
+2023-09-06 11:45:14 | INFO | train | Using one GPU: cuda.
+2023-09-06 11:45:14 | INFO | train | Model parameters: Namespace(anchor='anchor', auto_clean_model_mode=1, batch_size=4, bert_config_path='./config/uncased_L-12_H-768_A-12/bert_config.json', bert_is_array=True, bert_pretrained_path='./saved_model/english_bert_base.bin', bert_vocab_path='./config/uncased_L-12_H-768_A-12/vocab.txt', breakpoint=-1, config_path='./config/model-en.conf', data_dir='/mnt/inspurfs/user-fs/pengwei/mnt/inspurfs/user-fs/pengwei/debug_traffic/./data/toy', dim_bert=768, dim_hidden=512, dp_mode_gpu_num=-1, embedding_dropout_rate=0.5, gpu_mode=1, has_valid=1, iter_num=100000, label_path='./config/label.conf', lambda1=1, lambda2=1, language='en', learning_rate=0.001, linear_dropout_rate=0.5, local_rank=0, lr_bert=1e-05, lr_word_vector=0.0001, max_checkpoint=4096, max_length_sen=256, model_type='BertConCap', multi_gpu=None, n_gram=3, n_loss=3, name_model='debug', newvocab_path='./config/encryptd_vocab.txt', optim_type='Adam', per_checkpoint=256, pretrained_model_path='./saved_model/model-f1_macro-650.pth', rnn_type='LSTM', sampled_num=1200, seed=2021, segment_type='char', use_pretrain_bert=True, use_word_vec=True, weight_decay=0)
+2023-09-06 11:45:14 | INFO | train | Num of worker in data loader is: 4
+2023-09-06 11:45:14 | INFO | train | task detail: {'0': {'is_valid': True, 'contribution': 2, 'value': 2}, '1': {'is_valid': True, 'contribution': 16, 'value': 16}, '2': {'is_valid': True, 'contribution': 2, 'value': 2}, '3': {'is_valid': True, 'contribution': 5, 'value': 5}, '4': {'is_valid': True, 'contribution': 2, 'value': 2}, '5': {'is_valid': True, 'contribution': 19, 'value': 19}}
+2023-09-06 11:45:14 | INFO | word_vec | Loading word vectors...
+2023-09-06 11:45:14 | WARNING | word_vec | all word vec is inited by random
+2023-09-06 11:45:14 | INFO | word_vec | 0 words found in vocab
+2023-09-06 11:45:14 | INFO | word_vec | 33 words not found in vocab
+2023-09-06 11:45:26 | INFO | deepnet.data.dataset_text | Use general data sampler.
+2023-09-06 11:45:26 | INFO | train | Dataset Statictis(only for evaluation): train: 388
+2023-09-06 11:45:26 | INFO | train | Dataset Statictis(only for evaluation): valid: 389
+2023-09-06 11:45:27 | INFO | train | Dataset Statictis(only for evaluation): test: 386
+2023-09-06 11:45:54 | INFO | deepnet.data.dataset_text | The count of reading file /mnt/inspurfs/user-fs/pengwei/mnt/inspurfs/user-fs/pengwei/debug_traffic/./data/toy/all.txt is 2.
+2023-09-06 11:45:55 | INFO | deepnet.data.dataset_text | Read next training chunk, data size is 1163
+2023-09-06 15:13:03 | INFO | train | Using one GPU: cuda.
+2023-09-06 15:13:03 | INFO | train | Model parameters: Namespace(anchor='anchor', auto_clean_model_mode=1, batch_size=4, bert_config_path='./config/uncased_L-12_H-768_A-12/bert_config.json', bert_is_array=True, bert_pretrained_path='./saved_model/english_bert_base.bin', bert_vocab_path='./config/uncased_L-12_H-768_A-12/vocab.txt', breakpoint=-1, config_path='./config/model-en.conf', data_dir='/mnt/inspurfs/user-fs/pengwei/mnt/inspurfs/user-fs/pengwei/debug_traffic/./data/toy', dim_bert=768, dim_hidden=512, dp_mode_gpu_num=-1, embedding_dropout_rate=0.5, gpu_mode=1, has_valid=1, iter_num=100000, label_path='./config/label.conf', lambda1=1, lambda2=1, language='en', learning_rate=0.001, linear_dropout_rate=0.5, local_rank=0, lr_bert=1e-05, lr_word_vector=0.0001, max_checkpoint=4096, max_length_sen=256, model_type='BertConCap', multi_gpu=None, n_gram=3, n_loss=3, name_model='debug', newvocab_path='./config/encryptd_vocab.txt', optim_type='Adam', per_checkpoint=256, pretrained_model_path='./saved_model/model-f1_macro-650.pth', rnn_type='LSTM', sampled_num=1200, seed=2021, segment_type='char', use_pretrain_bert=True, use_word_vec=True, weight_decay=0)
+2023-09-06 15:13:03 | INFO | train | Num of worker in data loader is: 4
+2023-09-06 15:13:03 | INFO | train | task detail: {'0': {'is_valid': True, 'contribution': 2, 'value': 2}, '1': {'is_valid': True, 'contribution': 16, 'value': 16}, '2': {'is_valid': True, 'contribution': 2, 'value': 2}, '3': {'is_valid': True, 'contribution': 5, 'value': 5}, '4': {'is_valid': True, 'contribution': 2, 'value': 2}, '5': {'is_valid': True, 'contribution': 19, 'value': 19}}
+2023-09-06 15:13:03 | INFO | word_vec | Loading word vectors...
+2023-09-06 15:13:03 | WARNING | word_vec | all word vec is inited by random
+2023-09-06 15:13:03 | INFO | word_vec | 0 words found in vocab
+2023-09-06 15:13:03 | INFO | word_vec | 33 words not found in vocab
+2023-09-06 15:13:09 | INFO | deepnet.data.dataset_text | Use general data sampler.
+2023-09-06 15:13:09 | INFO | train | Dataset Statictis(only for evaluation): train: 388
+2023-09-06 15:13:09 | INFO | train | Dataset Statictis(only for evaluation): valid: 389
+2023-09-06 15:13:09 | INFO | train | Dataset Statictis(only for evaluation): test: 386
+2023-09-06 15:14:13 | INFO | train | Using one GPU: cuda.
+2023-09-06 15:14:13 | INFO | train | Model parameters: Namespace(anchor='anchor', auto_clean_model_mode=1, batch_size=4, bert_config_path='./config/uncased_L-12_H-768_A-12/bert_config.json', bert_is_array=True, bert_pretrained_path='./saved_model/english_bert_base.bin', bert_vocab_path='./config/uncased_L-12_H-768_A-12/vocab.txt', breakpoint=-1, config_path='./config/model-en.conf', data_dir='/mnt/inspurfs/user-fs/pengwei/mnt/inspurfs/user-fs/pengwei/debug_traffic/./data/toy', dim_bert=768, dim_hidden=512, dp_mode_gpu_num=-1, embedding_dropout_rate=0.5, gpu_mode=1, has_valid=1, iter_num=100000, label_path='./config/label.conf', lambda1=1, lambda2=1, language='en', learning_rate=0.001, linear_dropout_rate=0.5, local_rank=0, lr_bert=1e-05, lr_word_vector=0.0001, max_checkpoint=4096, max_length_sen=256, model_type='BertConCap', multi_gpu=None, n_gram=3, n_loss=3, name_model='debug', newvocab_path='./config/encryptd_vocab.txt', optim_type='Adam', per_checkpoint=256, pretrained_model_path='./saved_model/model-f1_macro-650.pth', rnn_type='LSTM', sampled_num=1200, seed=2021, segment_type='char', use_pretrain_bert=True, use_word_vec=True, weight_decay=0)
+2023-09-06 15:14:13 | INFO | train | Num of worker in data loader is: 4
+2023-09-06 15:14:13 | INFO | train | task detail: {'0': {'is_valid': True, 'contribution': 2, 'value': 2}, '1': {'is_valid': True, 'contribution': 16, 'value': 16}, '2': {'is_valid': True, 'contribution': 2, 'value': 2}, '3': {'is_valid': True, 'contribution': 5, 'value': 5}, '4': {'is_valid': True, 'contribution': 2, 'value': 2}, '5': {'is_valid': True, 'contribution': 19, 'value': 19}}
+2023-09-06 15:14:13 | INFO | word_vec | Loading word vectors...
+2023-09-06 15:14:13 | WARNING | word_vec | all word vec is inited by random
+2023-09-06 15:14:13 | INFO | word_vec | 0 words found in vocab
+2023-09-06 15:14:13 | INFO | word_vec | 33 words not found in vocab
+2023-09-06 15:14:19 | INFO | deepnet.data.dataset_text | Use general data sampler.
+2023-09-06 15:14:19 | INFO | train | Dataset Statictis(only for evaluation): train: 388
+2023-09-06 15:14:20 | INFO | train | Dataset Statictis(only for evaluation): valid: 389
+2023-09-06 15:14:20 | INFO | train | Dataset Statictis(only for evaluation): test: 386
+2023-09-06 15:15:25 | INFO | train | Using one GPU: cuda.
+2023-09-06 15:15:25 | INFO | train | Model parameters: Namespace(anchor='anchor', auto_clean_model_mode=1, batch_size=4, bert_config_path='./config/uncased_L-12_H-768_A-12/bert_config.json', bert_is_array=True, bert_pretrained_path='./saved_model/english_bert_base.bin', bert_vocab_path='./config/uncased_L-12_H-768_A-12/vocab.txt', breakpoint=-1, config_path='./config/model-en.conf', data_dir='/mnt/inspurfs/user-fs/pengwei/mnt/inspurfs/user-fs/pengwei/debug_traffic/./data/toy', dim_bert=768, dim_hidden=512, dp_mode_gpu_num=-1, embedding_dropout_rate=0.5, gpu_mode=1, has_valid=1, iter_num=100000, label_path='./config/label.conf', lambda1=1, lambda2=1, language='en', learning_rate=0.001, linear_dropout_rate=0.5, local_rank=0, lr_bert=1e-05, lr_word_vector=0.0001, max_checkpoint=4096, max_length_sen=256, model_type='BertConCap', multi_gpu=None, n_gram=3, n_loss=3, name_model='debug', newvocab_path='./config/encryptd_vocab.txt', optim_type='Adam', per_checkpoint=256, pretrained_model_path='./saved_model/model-f1_macro-650.pth', rnn_type='LSTM', sampled_num=1200, seed=2021, segment_type='char', use_pretrain_bert=True, use_word_vec=True, weight_decay=0)
+2023-09-06 15:15:25 | INFO | train | Num of worker in data loader is: 4
+2023-09-06 15:15:25 | INFO | train | task detail: {'0': {'is_valid': True, 'contribution': 2, 'value': 2}, '1': {'is_valid': True, 'contribution': 16, 'value': 16}, '2': {'is_valid': True, 'contribution': 2, 'value': 2}, '3': {'is_valid': True, 'contribution': 5, 'value': 5}, '4': {'is_valid': True, 'contribution': 2, 'value': 2}, '5': {'is_valid': True, 'contribution': 19, 'value': 19}}
+2023-09-06 15:15:25 | INFO | word_vec | Loading word vectors...
+2023-09-06 15:15:25 | WARNING | word_vec | all word vec is inited by random
+2023-09-06 15:15:25 | INFO | word_vec | 0 words found in vocab
+2023-09-06 15:15:25 | INFO | word_vec | 33 words not found in vocab
+2023-09-06 15:15:31 | INFO | deepnet.data.dataset_text | Use general data sampler.
+2023-09-06 15:15:31 | INFO | train | Dataset Statictis(only for evaluation): train: 388
+2023-09-06 15:15:32 | INFO | train | Dataset Statictis(only for evaluation): valid: 389
+2023-09-06 15:15:32 | INFO | train | Dataset Statictis(only for evaluation): test: 386
+2023-09-06 15:18:02 | INFO | train | Using one GPU: cuda.
+2023-09-06 15:18:02 | INFO | train | Model parameters: Namespace(anchor='anchor', auto_clean_model_mode=1, batch_size=4, bert_config_path='./config/uncased_L-12_H-768_A-12/bert_config.json', bert_is_array=True, bert_pretrained_path='./saved_model/english_bert_base.bin', bert_vocab_path='./config/uncased_L-12_H-768_A-12/vocab.txt', breakpoint=-1, config_path='./config/model-en.conf', data_dir='/mnt/inspurfs/user-fs/pengwei/mnt/inspurfs/user-fs/pengwei/debug_traffic/./data/toy', dim_bert=768, dim_hidden=512, dp_mode_gpu_num=-1, embedding_dropout_rate=0.5, gpu_mode=1, has_valid=1, iter_num=100000, label_path='./config/label.conf', lambda1=1, lambda2=1, language='en', learning_rate=0.001, linear_dropout_rate=0.5, local_rank=0, lr_bert=1e-05, lr_word_vector=0.0001, max_checkpoint=4096, max_length_sen=256, model_type='BertConCap', multi_gpu=None, n_gram=3, n_loss=3, name_model='debug', newvocab_path='./config/encryptd_vocab.txt', optim_type='Adam', per_checkpoint=256, pretrained_model_path='./saved_model/model-f1_macro-650.pth', rnn_type='LSTM', sampled_num=1200, seed=2021, segment_type='char', use_pretrain_bert=True, use_word_vec=True, weight_decay=0)
+2023-09-06 15:18:02 | INFO | train | Num of worker in data loader is: 4
+2023-09-06 15:18:02 | INFO | train | task detail: {'0': {'is_valid': True, 'contribution': 2, 'value': 2}, '1': {'is_valid': True, 'contribution': 16, 'value': 16}, '2': {'is_valid': True, 'contribution': 2, 'value': 2}, '3': {'is_valid': True, 'contribution': 5, 'value': 5}, '4': {'is_valid': True, 'contribution': 2, 'value': 2}, '5': {'is_valid': True, 'contribution': 19, 'value': 19}}
+2023-09-06 15:18:04 | INFO | word_vec | Loading word vectors...
+2023-09-06 15:18:05 | WARNING | word_vec | all word vec is inited by random
+2023-09-06 15:18:05 | INFO | word_vec | 0 words found in vocab
+2023-09-06 15:18:05 | INFO | word_vec | 33 words not found in vocab
+2023-09-06 15:18:16 | INFO | deepnet.data.dataset_text | Use general data sampler.
+2023-09-06 15:18:16 | INFO | train | Dataset Statictis(only for evaluation): train: 388
+2023-09-06 15:18:16 | INFO | train | Dataset Statictis(only for evaluation): valid: 389
+2023-09-06 15:18:16 | INFO | train | Dataset Statictis(only for evaluation): test: 386
+2023-09-06 15:21:21 | INFO | train | Using one GPU: cuda.
+2023-09-06 15:21:21 | INFO | train | Model parameters: Namespace(anchor='anchor', auto_clean_model_mode=1, batch_size=4, bert_config_path='./config/uncased_L-12_H-768_A-12/bert_config.json', bert_is_array=True, bert_pretrained_path='./saved_model/english_bert_base.bin', bert_vocab_path='./config/uncased_L-12_H-768_A-12/vocab.txt', breakpoint=-1, config_path='./config/model-en.conf', data_dir='/mnt/inspurfs/user-fs/pengwei/mnt/inspurfs/user-fs/pengwei/debug_traffic/./data/toy', dim_bert=768, dim_hidden=512, dp_mode_gpu_num=-1, embedding_dropout_rate=0.5, gpu_mode=1, has_valid=1, iter_num=100000, label_path='./config/label.conf', lambda1=1, lambda2=1, language='en', learning_rate=0.001, linear_dropout_rate=0.5, local_rank=0, lr_bert=1e-05, lr_word_vector=0.0001, max_checkpoint=4096, max_length_sen=256, model_type='BertConCap', multi_gpu=None, n_gram=3, n_loss=3, name_model='debug', newvocab_path='./config/encryptd_vocab.txt', optim_type='Adam', per_checkpoint=256, pretrained_model_path='./saved_model/model-f1_macro-650.pth', rnn_type='LSTM', sampled_num=1200, seed=2021, segment_type='char', use_pretrain_bert=True, use_word_vec=True, weight_decay=0)
+2023-09-06 15:21:21 | INFO | train | Num of worker in data loader is: 4
+2023-09-06 15:21:21 | INFO | train | task detail: {'0': {'is_valid': True, 'contribution': 2, 'value': 2}, '1': {'is_valid': True, 'contribution': 16, 'value': 16}, '2': {'is_valid': True, 'contribution': 2, 'value': 2}, '3': {'is_valid': True, 'contribution': 5, 'value': 5}, '4': {'is_valid': True, 'contribution': 2, 'value': 2}, '5': {'is_valid': True, 'contribution': 19, 'value': 19}}
+2023-09-06 15:21:21 | INFO | word_vec | Loading word vectors...
+2023-09-06 15:21:21 | WARNING | word_vec | all word vec is inited by random
+2023-09-06 15:21:21 | INFO | word_vec | 0 words found in vocab
+2023-09-06 15:21:21 | INFO | word_vec | 33 words not found in vocab
+2023-09-06 15:21:27 | INFO | deepnet.data.dataset_text | Use general data sampler.
+2023-09-06 15:21:28 | INFO | train | Dataset Statictis(only for evaluation): train: 388
+2023-09-06 15:21:28 | INFO | train | Dataset Statictis(only for evaluation): valid: 389
+2023-09-06 15:21:28 | INFO | train | Dataset Statictis(only for evaluation): test: 386
+2023-09-06 15:22:01 | INFO | deepnet.data.dataset_text | The count of reading file /mnt/inspurfs/user-fs/pengwei/mnt/inspurfs/user-fs/pengwei/debug_traffic/./data/toy/all.txt is 2.
+2023-09-06 15:22:01 | INFO | deepnet.data.dataset_text | Read next training chunk, data size is 1163
+2023-09-06 15:26:42 | INFO | train | Using one GPU: cuda.
+2023-09-06 15:26:42 | INFO | train | Model parameters: Namespace(anchor='anchor', auto_clean_model_mode=1, batch_size=4, bert_config_path='./config/uncased_L-12_H-768_A-12/bert_config.json', bert_is_array=True, bert_pretrained_path='./saved_model/english_bert_base.bin', bert_vocab_path='./config/uncased_L-12_H-768_A-12/vocab.txt', breakpoint=-1, config_path='./config/model-en.conf', data_dir='/mnt/inspurfs/user-fs/pengwei/mnt/inspurfs/user-fs/pengwei/debug_traffic/./data/toy', dim_bert=768, dim_hidden=512, dp_mode_gpu_num=-1, embedding_dropout_rate=0.5, gpu_mode=1, has_valid=1, iter_num=100000, label_path='./config/label.conf', lambda1=1, lambda2=1, language='en', learning_rate=0.001, linear_dropout_rate=0.5, local_rank=0, lr_bert=1e-05, lr_word_vector=0.0001, max_checkpoint=4096, max_length_sen=256, model_type='BertConCap', multi_gpu=None, n_gram=3, n_loss=3, name_model='debug', newvocab_path='./config/encryptd_vocab.txt', optim_type='Adam', per_checkpoint=256, pretrained_model_path='./saved_model/model-f1_macro-650.pth', rnn_type='LSTM', sampled_num=1200, seed=2021, segment_type='char', use_pretrain_bert=True, use_word_vec=True, weight_decay=0)
+2023-09-06 15:26:42 | INFO | train | Num of worker in data loader is: 4
+2023-09-06 15:26:42 | INFO | train | task detail: {'0': {'is_valid': True, 'contribution': 2, 'value': 2}, '1': {'is_valid': True, 'contribution': 16, 'value': 16}, '2': {'is_valid': True, 'contribution': 2, 'value': 2}, '3': {'is_valid': True, 'contribution': 5, 'value': 5}, '4': {'is_valid': True, 'contribution': 2, 'value': 2}, '5': {'is_valid': True, 'contribution': 19, 'value': 19}}
+2023-09-06 15:26:42 | INFO | word_vec | Loading word vectors...
+2023-09-06 15:26:42 | WARNING | word_vec | all word vec is inited by random
+2023-09-06 15:26:42 | INFO | word_vec | 0 words found in vocab
+2023-09-06 15:26:42 | INFO | word_vec | 33 words not found in vocab
+2023-09-06 15:26:49 | INFO | deepnet.data.dataset_text | Use general data sampler.
+2023-09-06 15:26:49 | INFO | train | Dataset Statictis(only for evaluation): train: 388
+2023-09-06 15:26:49 | INFO | train | Dataset Statictis(only for evaluation): valid: 389
+2023-09-06 15:26:49 | INFO | train | Dataset Statictis(only for evaluation): test: 386
+2023-09-06 15:27:38 | INFO | train | Using one GPU: cuda.
+2023-09-06 15:27:38 | INFO | train | Model parameters: Namespace(anchor='anchor', auto_clean_model_mode=1, batch_size=4, bert_config_path='./config/uncased_L-12_H-768_A-12/bert_config.json', bert_is_array=True, bert_pretrained_path='./saved_model/english_bert_base.bin', bert_vocab_path='./config/uncased_L-12_H-768_A-12/vocab.txt', breakpoint=-1, config_path='./config/model-en.conf', data_dir='/mnt/inspurfs/user-fs/pengwei/mnt/inspurfs/user-fs/pengwei/debug_traffic/./data/toy', dim_bert=768, dim_hidden=512, dp_mode_gpu_num=-1, embedding_dropout_rate=0.5, gpu_mode=1, has_valid=1, iter_num=100000, label_path='./config/label.conf', lambda1=1, lambda2=1, language='en', learning_rate=0.001, linear_dropout_rate=0.5, local_rank=0, lr_bert=1e-05, lr_word_vector=0.0001, max_checkpoint=4096, max_length_sen=256, model_type='BertConCap', multi_gpu=None, n_gram=3, n_loss=3, name_model='debug', newvocab_path='./config/encryptd_vocab.txt', optim_type='Adam', per_checkpoint=256, pretrained_model_path='./saved_model/model-f1_macro-650.pth', rnn_type='LSTM', sampled_num=1200, seed=2021, segment_type='char', use_pretrain_bert=True, use_word_vec=True, weight_decay=0)
+2023-09-06 15:27:38 | INFO | train | Num of worker in data loader is: 4
+2023-09-06 15:27:38 | INFO | train | task detail: {'0': {'is_valid': True, 'contribution': 2, 'value': 2}, '1': {'is_valid': True, 'contribution': 16, 'value': 16}, '2': {'is_valid': True, 'contribution': 2, 'value': 2}, '3': {'is_valid': True, 'contribution': 5, 'value': 5}, '4': {'is_valid': True, 'contribution': 2, 'value': 2}, '5': {'is_valid': True, 'contribution': 19, 'value': 19}}
+2023-09-06 15:30:27 | INFO | word_vec | Loading word vectors...
+2023-09-06 15:30:27 | WARNING | word_vec | all word vec is inited by random
+2023-09-06 15:30:27 | INFO | word_vec | 0 words found in vocab
+2023-09-06 15:30:27 | INFO | word_vec | 33 words not found in vocab
+2023-09-06 15:30:35 | INFO | deepnet.data.dataset_text | Use general data sampler.
+2023-09-06 15:30:35 | INFO | train | Dataset Statictis(only for evaluation): train: 388
+2023-09-06 15:30:35 | INFO | train | Dataset Statictis(only for evaluation): valid: 389
+2023-09-06 15:30:35 | INFO | train | Dataset Statictis(only for evaluation): test: 386
+2023-09-08 11:09:36 | INFO | train | Using one GPU: cuda.
+2023-09-08 11:09:36 | INFO | train | Model parameters: Namespace(anchor='anchor', auto_clean_model_mode=1, batch_size=16, bert_config_path='./config/uncased_L-12_H-768_A-12/bert_config.json', bert_is_array=True, bert_pretrained_path='./saved_model/english_bert_base.bin', bert_vocab_path='./config/uncased_L-12_H-768_A-12/vocab.txt', breakpoint=-1, config_path='./config/model-en.conf', data_dir='/mnt/inspurfs/user-fs/pengwei/mnt/inspurfs/user-fs/pengwei/debug_traffic/./data/vpn', dim_bert=768, dim_hidden=512, dp_mode_gpu_num=-1, embedding_dropout_rate=0.5, gpu_mode=1, has_valid=1, iter_num=100000, label_path='./config/label.conf', lambda1=1, lambda2=1, language='en', learning_rate=0.001, linear_dropout_rate=0.5, local_rank=0, lr_bert=1e-05, lr_word_vector=0.0001, max_checkpoint=4096, max_length_sen=256, model_type='BertConCap', multi_gpu=None, n_gram=3, n_loss=3, name_model='debug', newvocab_path='./config/encryptd_vocab.txt', optim_type='Adam', per_checkpoint=256, pretrained_model_path='./saved_model/model-f1_macro-650.pth', rnn_type='LSTM', sampled_num=1200, seed=2021, segment_type='char', use_pretrain_bert=True, use_word_vec=True, weight_decay=0)
+2023-09-08 11:09:36 | INFO | train | Num of worker in data loader is: 4
+2023-09-08 11:09:36 | INFO | train | task detail: {'0': {'is_valid': True, 'contribution': 2, 'value': 2}, '1': {'is_valid': True, 'contribution': 16, 'value': 16}, '2': {'is_valid': True, 'contribution': 2, 'value': 2}, '3': {'is_valid': True, 'contribution': 5, 'value': 5}, '4': {'is_valid': True, 'contribution': 2, 'value': 2}, '5': {'is_valid': True, 'contribution': 19, 'value': 19}}
+2023-09-08 11:09:39 | INFO | word_vec | Loading word vectors...
+2023-09-08 11:09:39 | WARNING | word_vec | all word vec is inited by random
+2023-09-08 11:09:39 | INFO | word_vec | 0 words found in vocab
+2023-09-08 11:09:39 | INFO | word_vec | 33 words not found in vocab
+2023-09-08 11:09:56 | INFO | deepnet.data.dataset_text | Use general data sampler.
+2023-09-08 11:09:59 | INFO | train | Dataset Statictis(only for evaluation): train: 1200
+2023-09-08 11:10:08 | INFO | train | Dataset Statictis(only for evaluation): valid: 1200
+2023-09-08 11:10:14 | INFO | train | Dataset Statictis(only for evaluation): test: 1200
+2023-09-08 11:10:18 | INFO | train | ----------------------------------------------------------------------------------
+2023-09-08 11:10:18 | INFO | train | Time of iter training 0.99 s
+2023-09-08 11:10:18 | INFO | train | On iter step 0:, global step 0 Loss-step [1.0000 1.0000 1.0000]
+2023-09-08 11:11:05 | INFO | train | Using one GPU: cuda.
+2023-09-08 11:11:05 | INFO | train | Model parameters: Namespace(anchor='anchor', auto_clean_model_mode=1, batch_size=16, bert_config_path='./config/uncased_L-12_H-768_A-12/bert_config.json', bert_is_array=True, bert_pretrained_path='./saved_model/english_bert_base.bin', bert_vocab_path='./config/uncased_L-12_H-768_A-12/vocab.txt', breakpoint=-1, config_path='./config/model-en.conf', data_dir='/mnt/inspurfs/user-fs/pengwei/mnt/inspurfs/user-fs/pengwei/debug_traffic/./data/vpn', dim_bert=768, dim_hidden=512, dp_mode_gpu_num=-1, embedding_dropout_rate=0.5, gpu_mode=1, has_valid=1, iter_num=100000, label_path='./config/label.conf', lambda1=1, lambda2=1, language='en', learning_rate=0.001, linear_dropout_rate=0.5, local_rank=0, lr_bert=1e-05, lr_word_vector=0.0001, max_checkpoint=4096, max_length_sen=256, model_type='BertConCap', multi_gpu=None, n_gram=3, n_loss=3, name_model='debug', newvocab_path='./config/encryptd_vocab.txt', optim_type='Adam', per_checkpoint=256, pretrained_model_path='./saved_model/model-f1_macro-650.pth', rnn_type='LSTM', sampled_num=1200, seed=2021, segment_type='char', use_pretrain_bert=True, use_word_vec=True, weight_decay=0)
+2023-09-08 11:11:05 | INFO | train | Num of worker in data loader is: 4
+2023-09-08 11:11:05 | INFO | train | task detail: {'0': {'is_valid': True, 'contribution': 2, 'value': 2}, '1': {'is_valid': True, 'contribution': 16, 'value': 16}, '2': {'is_valid': True, 'contribution': 2, 'value': 2}, '3': {'is_valid': True, 'contribution': 5, 'value': 5}, '4': {'is_valid': True, 'contribution': 2, 'value': 2}, '5': {'is_valid': True, 'contribution': 19, 'value': 19}}
+2023-09-08 11:11:05 | INFO | word_vec | Loading word vectors...
+2023-09-08 11:11:05 | WARNING | word_vec | all word vec is inited by random
+2023-09-08 11:11:05 | INFO | word_vec | 0 words found in vocab
+2023-09-08 11:11:05 | INFO | word_vec | 33 words not found in vocab
+2023-09-08 11:11:18 | INFO | deepnet.data.dataset_text | Use general data sampler.
+2023-09-08 11:18:57 | INFO | train | Using one GPU: cuda.
+2023-09-08 11:18:57 | INFO | train | Model parameters: Namespace(anchor='anchor', auto_clean_model_mode=1, batch_size=16, bert_config_path='./config/uncased_L-12_H-768_A-12/bert_config.json', bert_is_array=True, bert_pretrained_path='./saved_model/english_bert_base.bin', bert_vocab_path='./config/uncased_L-12_H-768_A-12/vocab.txt', breakpoint=-1, config_path='./config/model-en.conf', data_dir='/mnt/inspurfs/user-fs/pengwei/mnt/inspurfs/user-fs/pengwei/debug_traffic/./data/vpn', dim_bert=768, dim_hidden=512, dp_mode_gpu_num=-1, embedding_dropout_rate=0.5, gpu_mode=1, has_valid=1, iter_num=100000, label_path='./config/label.conf', lambda1=1, lambda2=1, language='en', learning_rate=0.001, linear_dropout_rate=0.5, local_rank=0, lr_bert=1e-05, lr_word_vector=0.0001, max_checkpoint=4096, max_length_sen=256, model_type='BertConCap', multi_gpu=None, n_gram=3, n_loss=3, name_model='debug', newvocab_path='./config/encryptd_vocab.txt', optim_type='Adam', per_checkpoint=256, pretrained_model_path='./saved_model/model-f1_macro-650.pth', rnn_type='LSTM', sampled_num=1200, seed=2021, segment_type='char', use_pretrain_bert=True, use_word_vec=True, weight_decay=0)
+2023-09-08 11:18:57 | INFO | train | Num of worker in data loader is: 4
+2023-09-08 11:18:57 | INFO | train | task detail: {'0': {'is_valid': True, 'contribution': 2, 'value': 2}, '1': {'is_valid': True, 'contribution': 16, 'value': 16}, '2': {'is_valid': True, 'contribution': 2, 'value': 2}, '3': {'is_valid': True, 'contribution': 5, 'value': 5}, '4': {'is_valid': True, 'contribution': 2, 'value': 2}, '5': {'is_valid': True, 'contribution': 19, 'value': 19}}
+2023-09-08 11:18:57 | INFO | word_vec | Loading word vectors...
+2023-09-08 11:18:57 | WARNING | word_vec | all word vec is inited by random
+2023-09-08 11:18:57 | INFO | word_vec | 0 words found in vocab
+2023-09-08 11:18:57 | INFO | word_vec | 33 words not found in vocab
+2023-09-08 11:19:11 | INFO | deepnet.data.dataset_text | Use general data sampler.
+2023-09-08 11:19:13 | INFO | train | Dataset Statictis(only for evaluation): train: 1200
+2023-09-08 11:19:22 | INFO | train | Dataset Statictis(only for evaluation): valid: 1200
+2023-09-08 11:19:27 | INFO | train | Dataset Statictis(only for evaluation): test: 1200
+2023-09-08 11:19:27 | INFO | train | ----------------------------------------------------------------------------------
+2023-09-08 11:19:27 | INFO | train | Time of iter training 0.00 s
+2023-09-08 11:19:27 | INFO | train | On iter step 0:, global step 0 Loss-step [1.0000 1.0000 1.0000]
+2023-09-08 11:20:25 | INFO | train | Using one GPU: cuda.
+2023-09-08 11:20:25 | INFO | train | Model parameters: Namespace(anchor='anchor', auto_clean_model_mode=1, batch_size=16, bert_config_path='./config/uncased_L-12_H-768_A-12/bert_config.json', bert_is_array=True, bert_pretrained_path='./saved_model/english_bert_base.bin', bert_vocab_path='./config/uncased_L-12_H-768_A-12/vocab.txt', breakpoint=-1, config_path='./config/model-en.conf', data_dir='/mnt/inspurfs/user-fs/pengwei/mnt/inspurfs/user-fs/pengwei/debug_traffic/./data/vpn', dim_bert=768, dim_hidden=512, dp_mode_gpu_num=-1, embedding_dropout_rate=0.5, gpu_mode=1, has_valid=1, iter_num=100000, label_path='./config/label.conf', lambda1=1, lambda2=1, language='en', learning_rate=0.001, linear_dropout_rate=0.5, local_rank=0, lr_bert=1e-05, lr_word_vector=0.0001, max_checkpoint=4096, max_length_sen=256, model_type='BertConCap', multi_gpu=None, n_gram=3, n_loss=3, name_model='debug', newvocab_path='./config/encryptd_vocab.txt', optim_type='Adam', per_checkpoint=256, pretrained_model_path='./saved_model/model-f1_macro-650.pth', rnn_type='LSTM', sampled_num=1200, seed=2021, segment_type='char', use_pretrain_bert=True, use_word_vec=True, weight_decay=0)
+2023-09-08 11:20:25 | INFO | train | Num of worker in data loader is: 4
+2023-09-08 11:20:25 | INFO | train | task detail: {'0': {'is_valid': True, 'contribution': 2, 'value': 2}, '1': {'is_valid': True, 'contribution': 16, 'value': 16}, '2': {'is_valid': True, 'contribution': 2, 'value': 2}, '3': {'is_valid': True, 'contribution': 5, 'value': 5}, '4': {'is_valid': True, 'contribution': 2, 'value': 2}, '5': {'is_valid': True, 'contribution': 19, 'value': 19}}
+2023-09-08 11:20:25 | INFO | word_vec | Loading word vectors...
+2023-09-08 11:20:25 | WARNING | word_vec | all word vec is inited by random
+2023-09-08 11:20:25 | INFO | word_vec | 0 words found in vocab
+2023-09-08 11:20:25 | INFO | word_vec | 33 words not found in vocab
+2023-09-08 11:20:37 | INFO | deepnet.data.dataset_text | Use general data sampler.
+2023-09-08 11:20:40 | INFO | train | Dataset Statictis(only for evaluation): train: 1200
+2023-09-08 11:20:48 | INFO | train | Dataset Statictis(only for evaluation): valid: 1200
+2023-09-08 11:20:52 | INFO | train | Dataset Statictis(only for evaluation): test: 1200
+2023-09-08 11:20:52 | INFO | train | ----------------------------------------------------------------------------------
+2023-09-08 11:20:52 | INFO | train | Time of iter training 0.00 s
+2023-09-08 11:20:52 | INFO | train | On iter step 0:, global step 0 Loss-step [1.0000 1.0000 1.0000]
+2023-09-08 11:21:24 | INFO | train | In dataset train: Loss is [26.1839 26.1839 0.0000]
+2023-09-08 11:21:37 | INFO | train | In dataset valid: Loss is [25.1645 25.1645 0.0000]
+2023-09-08 11:21:50 | INFO | train | In dataset test: Loss is [25.2063 25.2063 0.0000]
+2023-09-08 11:21:50 | INFO | train | The best f1_macro util now is 0.0000, at step -1
+2023-09-08 11:21:50 | INFO | train | The best f1_micro util now is 0.0000, at step -1
+2023-09-08 16:22:19 | INFO | train | Using one GPU: cuda.
+2023-09-08 16:22:19 | INFO | train | Model parameters: Namespace(anchor='anchor', auto_clean_model_mode=1, batch_size=16, bert_config_path='./config/uncased_L-12_H-768_A-12/bert_config.json', bert_is_array=True, bert_pretrained_path='./saved_model/english_bert_base.bin', bert_vocab_path='./config/uncased_L-12_H-768_A-12/vocab.txt', breakpoint=-1, config_path='./config/model-en.conf', data_dir='/mnt/inspurfs/user-fs/pengwei/mnt/inspurfs/user-fs/pengwei/debug_traffic/./data/vpn', dim_bert=768, dim_hidden=512, dp_mode_gpu_num=-1, embedding_dropout_rate=0.5, gpu_mode=1, has_valid=1, iter_num=100000, label_path='./config/label.conf', lambda1=1, lambda2=1, language='en', learning_rate=0.001, linear_dropout_rate=0.5, local_rank=0, lr_bert=1e-05, lr_word_vector=0.0001, max_checkpoint=4096, max_length_sen=256, model_type='BertConCap', multi_gpu=None, n_gram=3, n_loss=3, name_model='debug', newvocab_path='./config/encryptd_vocab.txt', optim_type='Adam', per_checkpoint=256, pretrained_model_path='./saved_model/model-f1_macro-650.pth', rnn_type='LSTM', sampled_num=1200, seed=2021, segment_type='char', use_pretrain_bert=True, use_word_vec=True, weight_decay=0)
+2023-09-08 16:22:19 | INFO | train | Num of worker in data loader is: 4
+2023-09-08 16:22:19 | INFO | train | task detail: {'0': {'is_valid': True, 'contribution': 2, 'value': 2}, '1': {'is_valid': True, 'contribution': 16, 'value': 16}, '2': {'is_valid': True, 'contribution': 2, 'value': 2}, '3': {'is_valid': True, 'contribution': 5, 'value': 5}, '4': {'is_valid': True, 'contribution': 2, 'value': 2}, '5': {'is_valid': True, 'contribution': 19, 'value': 19}}
+2023-09-08 16:22:46 | INFO | word_vec | Loading word vectors...
+2023-09-08 16:22:46 | WARNING | word_vec | all word vec is inited by random
+2023-09-08 16:22:46 | INFO | word_vec | 0 words found in vocab
+2023-09-08 16:22:46 | INFO | word_vec | 33 words not found in vocab
+2023-09-08 16:23:01 | INFO | deepnet.data.dataset_text | Use general data sampler.
+2023-09-08 16:23:06 | INFO | train | Dataset Statictis(only for evaluation): train: 1200
+2023-09-08 16:23:09 | INFO | train | Dataset Statictis(only for evaluation): valid: 1200
+2023-09-08 16:23:14 | INFO | train | Dataset Statictis(only for evaluation): test: 1200
+2023-09-08 16:23:20 | INFO | train | ----------------------------------------------------------------------------------
+2023-09-08 16:23:20 | INFO | train | Time of iter training 2.56 s
+2023-09-08 16:23:20 | INFO | train | On iter step 0:, global step 0 Loss-step [1.0000 1.0000 1.0000]
+2023-09-08 08:39:03 | INFO | train | Using one GPU: cuda.
+2023-09-08 08:39:03 | INFO | train | Model parameters: Namespace(anchor='anchor', auto_clean_model_mode=1, batch_size=16, bert_config_path='./config/uncased_L-12_H-768_A-12/bert_config.json', bert_is_array=True, bert_pretrained_path='./saved_model/english_bert_base.bin', bert_vocab_path='./config/uncased_L-12_H-768_A-12/vocab.txt', breakpoint=-1, config_path='./config/model-en.conf', data_dir='./data/toy', dim_bert=768, dim_hidden=512, dp_mode_gpu_num=-1, embedding_dropout_rate=0.5, gpu_mode=1, has_valid=1, iter_num=100000, label_path='./config/label.conf', lambda1=1, lambda2=1, language='en', learning_rate=0.001, linear_dropout_rate=0.5, local_rank=0, lr_bert=1e-05, lr_word_vector=0.0001, max_checkpoint=4096, max_length_sen=256, model_type='BertConCap', multi_gpu=None, n_gram=3, n_loss=3, name_model='debug', newvocab_path='./config/encryptd_vocab.txt', optim_type='Adam', per_checkpoint=256, pretrained_model_path='./saved_model/model-f1_macro-650.pth', rnn_type='LSTM', sampled_num=1200, seed=2021, segment_type='char', use_pretrain_bert=True, use_word_vec=True, weight_decay=0)
+2023-09-08 08:39:03 | INFO | train | Num of worker in data loader is: 4
+2023-09-08 08:39:03 | INFO | train | task detail: {'0': {'is_valid': True, 'contribution': 2, 'value': 2}, '1': {'is_valid': True, 'contribution': 16, 'value': 16}, '2': {'is_valid': True, 'contribution': 2, 'value': 2}, '3': {'is_valid': True, 'contribution': 5, 'value': 5}, '4': {'is_valid': True, 'contribution': 2, 'value': 2}, '5': {'is_valid': True, 'contribution': 19, 'value': 19}}
+2023-09-08 08:39:03 | INFO | word_vec | Loading word vectors...
+2023-09-08 08:39:03 | WARNING | word_vec | all word vec is inited by random
+2023-09-08 08:39:03 | INFO | word_vec | 0 words found in vocab
+2023-09-08 08:39:03 | INFO | word_vec | 33 words not found in vocab
+2023-09-08 08:39:11 | INFO | deepnet.data.dataset_text | Use general data sampler.
+2023-09-08 08:39:12 | INFO | train | Dataset Statictis(only for evaluation): train: 388
+2023-09-08 08:39:12 | INFO | train | Dataset Statictis(only for evaluation): valid: 389
+2023-09-08 08:39:12 | INFO | train | Dataset Statictis(only for evaluation): test: 386
+2023-09-08 08:39:12 | INFO | train | ----------------------------------------------------------------------------------
+2023-09-08 08:39:12 | INFO | train | Time of iter training 0.00 s
+2023-09-08 08:39:12 | INFO | train | On iter step 0:, global step 0 Loss-step [1.0000 1.0000 1.0000]
+2023-09-08 08:39:40 | INFO | train | In dataset train: Loss is [79.3952 79.3952 0.0000]
+2023-09-08 08:40:08 | INFO | train | In dataset valid: Loss is [81.5356 81.5356 0.0000]
+2023-09-08 08:40:24 | INFO | train | Using one GPU: cuda.
+2023-09-08 08:40:24 | INFO | train | Model parameters: Namespace(anchor='anchor', auto_clean_model_mode=1, batch_size=16, bert_config_path='./config/uncased_L-12_H-768_A-12/bert_config.json', bert_is_array=True, bert_pretrained_path='./saved_model/english_bert_base.bin', bert_vocab_path='./config/uncased_L-12_H-768_A-12/vocab.txt', breakpoint=-1, config_path='./config/model-en.conf', data_dir='./data/toy', dim_bert=768, dim_hidden=512, dp_mode_gpu_num=-1, embedding_dropout_rate=0.5, gpu_mode=1, has_valid=1, iter_num=100000, label_path='./config/label.conf', lambda1=1, lambda2=1, language='en', learning_rate=0.001, linear_dropout_rate=0.5, local_rank=0, lr_bert=1e-05, lr_word_vector=0.0001, max_checkpoint=4096, max_length_sen=256, model_type='BertConCap', multi_gpu=None, n_gram=3, n_loss=3, name_model='debug', newvocab_path='./config/encryptd_vocab.txt', optim_type='Adam', per_checkpoint=256, pretrained_model_path='./saved_model/model-f1_macro-650.pth', rnn_type='LSTM', sampled_num=1200, seed=2021, segment_type='char', use_pretrain_bert=True, use_word_vec=True, weight_decay=0)
+2023-09-08 08:40:24 | INFO | train | Num of worker in data loader is: 4
+2023-09-08 08:40:24 | INFO | train | task detail: {'0': {'is_valid': True, 'contribution': 2, 'value': 2}, '1': {'is_valid': True, 'contribution': 16, 'value': 16}, '2': {'is_valid': True, 'contribution': 2, 'value': 2}, '3': {'is_valid': True, 'contribution': 5, 'value': 5}, '4': {'is_valid': True, 'contribution': 2, 'value': 2}, '5': {'is_valid': True, 'contribution': 19, 'value': 19}}
+2023-09-08 08:40:24 | INFO | word_vec | Loading word vectors...
+2023-09-08 08:40:24 | WARNING | word_vec | all word vec is inited by random
+2023-09-08 08:40:24 | INFO | word_vec | 0 words found in vocab
+2023-09-08 08:40:24 | INFO | word_vec | 33 words not found in vocab
+2023-09-08 08:40:32 | INFO | deepnet.data.dataset_text | Use general data sampler.
+2023-09-08 08:40:33 | INFO | train | Dataset Statictis(only for evaluation): train: 388
+2023-09-08 08:40:33 | INFO | train | Dataset Statictis(only for evaluation): valid: 389
+2023-09-08 08:40:33 | INFO | train | Dataset Statictis(only for evaluation): test: 386
+2023-09-08 08:40:33 | INFO | train | ----------------------------------------------------------------------------------
+2023-09-08 08:40:33 | INFO | train | Time of iter training 0.00 s
+2023-09-08 08:40:33 | INFO | train | On iter step 0:, global step 0 Loss-step [1.0000 1.0000 1.0000]
+2023-09-08 08:41:02 | INFO | train | In dataset train: Loss is [79.3952 79.3952 0.0000]
+2023-09-08 16:49:06 | INFO | train | Using one GPU: cuda.
+2023-09-08 16:49:06 | INFO | train | Model parameters: Namespace(anchor='anchor', auto_clean_model_mode=1, batch_size=2, bert_config_path='./config/uncased_L-12_H-768_A-12/bert_config.json', bert_is_array=True, bert_pretrained_path='./saved_model/english_bert_base.bin', bert_vocab_path='./config/uncased_L-12_H-768_A-12/vocab.txt', breakpoint=-1, config_path='./config/model-en.conf', data_dir='/mnt/inspurfs/user-fs/pengwei/mnt/inspurfs/user-fs/pengwei/debug_traffic/./data/vpn', dim_bert=768, dim_hidden=512, dp_mode_gpu_num=-1, embedding_dropout_rate=0.5, gpu_mode=1, has_valid=1, iter_num=100000, label_path='./config/label.conf', lambda1=1, lambda2=1, language='en', learning_rate=0.001, linear_dropout_rate=0.5, local_rank=0, lr_bert=1e-05, lr_word_vector=0.0001, max_checkpoint=4096, max_length_sen=256, model_type='BertConCap', multi_gpu=None, n_gram=3, n_loss=3, name_model='debug', newvocab_path='./config/encryptd_vocab.txt', optim_type='Adam', per_checkpoint=256, pretrained_model_path='./saved_model/model-f1_macro-650.pth', rnn_type='LSTM', sampled_num=1200, seed=2021, segment_type='char', use_pretrain_bert=True, use_word_vec=True, weight_decay=0)
+2023-09-08 16:49:06 | INFO | train | Num of worker in data loader is: 4
+2023-09-08 16:49:06 | INFO | train | task detail: {'0': {'is_valid': True, 'contribution': 2, 'value': 2}, '1': {'is_valid': True, 'contribution': 6, 'value': 6}}
+2023-09-08 16:49:06 | INFO | word_vec | Loading word vectors...
+2023-09-08 16:49:06 | WARNING | word_vec | all word vec is inited by random
+2023-09-08 16:49:06 | INFO | word_vec | 0 words found in vocab
+2023-09-08 16:49:06 | INFO | word_vec | 13 words not found in vocab
+2023-09-08 16:49:21 | INFO | deepnet.data.dataset_text | Use general data sampler.
+2023-09-08 16:49:24 | INFO | train | Dataset Statictis(only for evaluation): train: 1200
+2023-09-08 16:49:27 | INFO | train | Dataset Statictis(only for evaluation): valid: 1200
+2023-09-08 16:49:30 | INFO | train | Dataset Statictis(only for evaluation): test: 1200
+2023-09-08 16:49:30 | INFO | train | ----------------------------------------------------------------------------------
+2023-09-08 16:49:30 | INFO | train | Time of iter training 0.00 s
+2023-09-08 16:49:30 | INFO | train | On iter step 0:, global step 0 Loss-step [1.0000 1.0000 1.0000]
+2023-09-08 16:50:30 | INFO | train | Using one GPU: cuda.
+2023-09-08 16:50:30 | INFO | train | Model parameters: Namespace(anchor='anchor', auto_clean_model_mode=1, batch_size=2, bert_config_path='./config/uncased_L-12_H-768_A-12/bert_config.json', bert_is_array=True, bert_pretrained_path='./saved_model/english_bert_base.bin', bert_vocab_path='./config/uncased_L-12_H-768_A-12/vocab.txt', breakpoint=-1, config_path='./config/model-en.conf', data_dir='/mnt/inspurfs/user-fs/pengwei/mnt/inspurfs/user-fs/pengwei/debug_traffic/./data/vpn', dim_bert=768, dim_hidden=512, dp_mode_gpu_num=-1, embedding_dropout_rate=0.5, gpu_mode=1, has_valid=1, iter_num=100000, label_path='./config/label.conf', lambda1=1, lambda2=1, language='en', learning_rate=0.001, linear_dropout_rate=0.5, local_rank=0, lr_bert=1e-05, lr_word_vector=0.0001, max_checkpoint=4096, max_length_sen=256, model_type='BertConCap', multi_gpu=None, n_gram=3, n_loss=3, name_model='debug', newvocab_path='./config/encryptd_vocab.txt', optim_type='Adam', per_checkpoint=256, pretrained_model_path='./saved_model/model-f1_macro-650.pth', rnn_type='LSTM', sampled_num=1200, seed=2021, segment_type='char', use_pretrain_bert=True, use_word_vec=True, weight_decay=0)
+2023-09-08 16:50:30 | INFO | train | Num of worker in data loader is: 4
+2023-09-08 16:50:30 | INFO | train | task detail: {'0': {'is_valid': True, 'contribution': 2, 'value': 2}, '1': {'is_valid': True, 'contribution': 6, 'value': 6}}
+2023-09-08 16:50:30 | INFO | word_vec | Loading word vectors...
+2023-09-08 16:50:30 | WARNING | word_vec | all word vec is inited by random
+2023-09-08 16:50:30 | INFO | word_vec | 0 words found in vocab
+2023-09-08 16:50:30 | INFO | word_vec | 13 words not found in vocab
+2023-09-08 16:50:44 | INFO | deepnet.data.dataset_text | Use general data sampler.
+2023-09-08 16:50:47 | INFO | train | Dataset Statictis(only for evaluation): train: 1200
+2023-09-08 16:50:50 | INFO | train | Dataset Statictis(only for evaluation): valid: 1200
+2023-09-08 16:50:52 | INFO | train | Dataset Statictis(only for evaluation): test: 1200
+2023-09-08 16:50:52 | INFO | train | ----------------------------------------------------------------------------------
+2023-09-08 16:50:52 | INFO | train | Time of iter training 0.00 s
+2023-09-08 16:50:52 | INFO | train | On iter step 0:, global step 0 Loss-step [1.0000 1.0000 1.0000]
+2023-09-08 16:51:20 | INFO | train | In dataset train: Loss is [22.2612 22.2612 0.0000]
+2023-09-08 16:51:46 | INFO | train | In dataset valid: Loss is [22.3872 22.3872 0.0000]
+2023-09-08 16:52:12 | INFO | train | In dataset test: Loss is [22.4072 22.4072 0.0000]
+2023-09-08 16:52:12 | INFO | train | The best f1_macro util now is 0.0000, at step -1
+2023-09-08 16:52:12 | INFO | train | The best f1_micro util now is 0.0000, at step -1
+2023-09-18 10:21:10 | INFO | train | Using one GPU: cuda.
+2023-09-18 10:21:10 | INFO | train | Model parameters: Namespace(anchor='anchor', auto_clean_model_mode=1, batch_size=2, bert_config_path='./config/uncased_L-12_H-768_A-12/bert_config.json', bert_is_array=True, bert_pretrained_path='./saved_model/english_bert_base.bin', bert_vocab_path='./config/uncased_L-12_H-768_A-12/vocab.txt', breakpoint=-1, config_path='./config/model-en.conf', data_dir='/mnt/inspurfs/user-fs/pengwei/mnt/inspurfs/user-fs/pengwei/debug_traffic/./data/vpn', dim_bert=768, dim_hidden=512, dp_mode_gpu_num=-1, embedding_dropout_rate=0.5, gpu_mode=1, has_valid=1, iter_num=100000, label_path='./config/label.conf', lambda1=1, lambda2=1, language='en', learning_rate=0.001, linear_dropout_rate=0.5, local_rank=0, lr_bert=1e-05, lr_word_vector=0.0001, max_checkpoint=4096, max_length_sen=256, model_type='BertConCap', multi_gpu=None, n_gram=3, n_loss=3, name_model='debug', newvocab_path='./config/encryptd_vocab.txt', optim_type='Adam', per_checkpoint=256, pretrained_model_path='./saved_model/model-f1_macro-650.pth', rnn_type='LSTM', sampled_num=1200, seed=2021, segment_type='char', use_pretrain_bert=True, use_word_vec=True, weight_decay=0)
+2023-09-18 10:21:10 | INFO | train | Num of worker in data loader is: 4
+2023-09-18 10:21:10 | INFO | train | task detail: {'0': {'is_valid': True, 'contribution': 2, 'value': 2}, '1': {'is_valid': True, 'contribution': 6, 'value': 6}}
+2023-09-18 10:21:10 | INFO | word_vec | Loading word vectors...
+2023-09-18 10:21:10 | WARNING | word_vec | all word vec is inited by random
+2023-09-18 10:21:10 | INFO | word_vec | 0 words found in vocab
+2023-09-18 10:21:10 | INFO | word_vec | 13 words not found in vocab
+2023-09-18 10:21:27 | INFO | deepnet.data.dataset_text | Use general data sampler.
+2023-09-18 10:21:30 | INFO | train | Dataset Statictis(only for evaluation): train: 1200
+2023-09-18 10:21:33 | INFO | train | Dataset Statictis(only for evaluation): valid: 1200
+2023-09-18 10:21:36 | INFO | train | Dataset Statictis(only for evaluation): test: 1200
+2023-09-18 10:21:36 | INFO | train | ----------------------------------------------------------------------------------
+2023-09-18 10:21:36 | INFO | train | Time of iter training 0.00 s
+2023-09-18 10:21:36 | INFO | train | On iter step 0:, global step 0 Loss-step [1.0000 1.0000 1.0000]
+2023-09-18 10:22:05 | INFO | train | In dataset train: Loss is [22.2612 22.2612 0.0000]
+2023-09-18 10:22:30 | INFO | train | In dataset valid: Loss is [22.3872 22.3872 0.0000]
+2023-09-18 10:22:56 | INFO | train | In dataset test: Loss is [22.4072 22.4072 0.0000]
+2023-09-18 10:22:56 | INFO | train | The best f1_macro util now is 0.0000, at step -1
+2023-09-18 10:22:56 | INFO | train | The best f1_micro util now is 0.0000, at step -1
+2023-09-18 10:31:12 | INFO | train | Using one GPU: cuda.
+2023-09-18 10:31:12 | INFO | train | Model parameters: Namespace(anchor='anchor', auto_clean_model_mode=1, batch_size=2, bert_config_path='./config/uncased_L-12_H-768_A-12/bert_config.json', bert_is_array=True, bert_pretrained_path='./saved_model/english_bert_base.bin', bert_vocab_path='./config/uncased_L-12_H-768_A-12/vocab.txt', breakpoint=-1, config_path='./config/model-en.conf', data_dir='/mnt/inspurfs/user-fs/pengwei/mnt/inspurfs/user-fs/pengwei/debug_traffic/./data/vpn', dim_bert=768, dim_hidden=512, dp_mode_gpu_num=-1, embedding_dropout_rate=0.5, gpu_mode=1, has_valid=1, iter_num=100000, label_path='./config/label.conf', lambda1=1, lambda2=1, language='en', learning_rate=0.001, linear_dropout_rate=0.5, local_rank=0, lr_bert=1e-05, lr_word_vector=0.0001, max_checkpoint=4096, max_length_sen=256, model_type='BertConCap', multi_gpu=None, n_gram=3, n_loss=3, name_model='debug', newvocab_path='./config/encryptd_vocab.txt', optim_type='Adam', per_checkpoint=256, pretrained_model_path='./saved_model/model-f1_macro-650.pth', rnn_type='LSTM', sampled_num=1200, seed=2021, segment_type='char', use_pretrain_bert=True, use_word_vec=True, weight_decay=0)
+2023-09-18 10:31:12 | INFO | train | Num of worker in data loader is: 4
+2023-09-18 10:31:12 | INFO | train | task detail: {'0': {'is_valid': True, 'contribution': 2, 'value': 2}, '1': {'is_valid': True, 'contribution': 6, 'value': 6}}
+2023-09-18 10:31:50 | INFO | word_vec | Loading word vectors...
+2023-09-18 10:31:50 | WARNING | word_vec | all word vec is inited by random
+2023-09-18 10:31:50 | INFO | word_vec | 0 words found in vocab
+2023-09-18 10:31:50 | INFO | word_vec | 13 words not found in vocab
+2023-09-18 10:32:10 | INFO | deepnet.data.dataset_text | Use general data sampler.
+2023-09-18 10:32:13 | INFO | train | Dataset Statictis(only for evaluation): train: 1200
+2023-09-18 10:32:17 | INFO | train | Dataset Statictis(only for evaluation): valid: 1200
+2023-09-18 10:32:20 | INFO | train | Dataset Statictis(only for evaluation): test: 1200
+2023-09-18 10:32:25 | INFO | train | ----------------------------------------------------------------------------------
+2023-09-18 10:32:25 | INFO | train | Time of iter training 1.26 s
+2023-09-18 10:32:25 | INFO | train | On iter step 0:, global step 0 Loss-step [1.0000 1.0000 1.0000]
+2023-09-18 11:24:28 | INFO | train | Using one GPU: cuda.
+2023-09-18 11:24:28 | INFO | train | Model parameters: Namespace(anchor='anchor', auto_clean_model_mode=1, batch_size=2, bert_config_path='./config/uncased_L-12_H-768_A-12/bert_config.json', bert_is_array=True, bert_pretrained_path='./saved_model/english_bert_base.bin', bert_vocab_path='./config/uncased_L-12_H-768_A-12/vocab.txt', breakpoint=-1, config_path='./config/model-en.conf', data_dir='/mnt/inspurfs/user-fs/pengwei/mnt/inspurfs/user-fs/pengwei/debug_traffic/./data/vpn', dim_bert=768, dim_hidden=512, dp_mode_gpu_num=-1, embedding_dropout_rate=0.5, gpu_mode=1, has_valid=1, iter_num=100000, label_path='./config/label.conf', lambda1=1, lambda2=1, language='en', learning_rate=0.001, linear_dropout_rate=0.5, local_rank=0, lr_bert=1e-05, lr_word_vector=0.0001, max_checkpoint=4096, max_length_sen=256, model_type='BertConCap', multi_gpu=None, n_gram=3, n_loss=3, name_model='debug', newvocab_path='./config/encryptd_vocab.txt', optim_type='Adam', per_checkpoint=256, pretrained_model_path='./saved_model/model-f1_macro-650.pth', rnn_type='LSTM', sampled_num=1200, seed=2021, segment_type='char', use_pretrain_bert=True, use_word_vec=True, weight_decay=0)
+2023-09-18 11:24:28 | INFO | train | Num of worker in data loader is: 4
+2023-09-18 11:24:28 | INFO | train | task detail: {'0': {'is_valid': True, 'contribution': 2, 'value': 2}, '1': {'is_valid': True, 'contribution': 6, 'value': 6}}
+2023-09-18 11:24:30 | INFO | word_vec | Loading word vectors...
+2023-09-18 11:24:30 | WARNING | word_vec | all word vec is inited by random
+2023-09-18 11:24:30 | INFO | word_vec | 0 words found in vocab
+2023-09-18 11:24:30 | INFO | word_vec | 13 words not found in vocab
+2023-09-18 11:26:01 | INFO | deepnet.data.dataset_text | Use general data sampler.
+2023-09-18 11:26:09 | INFO | train | Dataset Statictis(only for evaluation): train: 1200
+2023-09-18 11:26:13 | INFO | train | Dataset Statictis(only for evaluation): valid: 1200
+2023-09-18 11:26:16 | INFO | train | Dataset Statictis(only for evaluation): test: 1200
+2023-09-26 16:15:55 | INFO | train | Using one GPU: cuda.
+2023-09-26 16:15:55 | INFO | train | Model parameters: Namespace(anchor='anchor', auto_clean_model_mode=1, batch_size=2, bert_config_path='./config/uncased_L-12_H-768_A-12/bert_config.json', bert_is_array=True, bert_pretrained_path='./saved_model/english_bert_base.bin', bert_vocab_path='./config/uncased_L-12_H-768_A-12/vocab.txt', breakpoint=-1, config_path='./config/model-en.conf', data_dir='/mnt/inspurfs/user-fs/pengwei/mnt/inspurfs/user-fs/pengwei/debug_traffic/./data/vpn', dim_bert=768, dim_hidden=512, dp_mode_gpu_num=-1, embedding_dropout_rate=0.5, gpu_mode=1, has_valid=1, iter_num=100000, label_path='./config/label.conf', lambda1=1, lambda2=1, language='en', learning_rate=0.001, linear_dropout_rate=0.5, local_rank=0, lr_bert=1e-05, lr_word_vector=0.0001, max_checkpoint=4096, max_length_sen=256, model_type='BertConCap', multi_gpu=None, n_gram=3, n_loss=3, name_model='debug', newvocab_path='./config/encryptd_vocab.txt', optim_type='Adam', per_checkpoint=256, pretrained_model_path='./saved_model/model-f1_macro-650.pth', rnn_type='LSTM', sampled_num=1200, seed=2021, segment_type='char', use_pretrain_bert=True, use_word_vec=True, weight_decay=0)
+2023-09-26 16:15:55 | INFO | train | Num of worker in data loader is: 4
+2023-09-26 16:15:55 | INFO | train | task detail: {'0': {'is_valid': True, 'contribution': 6, 'value': 6}, '1': {'is_valid': True, 'contribution': 2, 'value': 2}}
+2023-09-26 16:15:57 | INFO | word_vec | Loading word vectors...
+2023-09-26 16:15:57 | WARNING | word_vec | all word vec is inited by random
+2023-09-26 16:15:57 | INFO | word_vec | 0 words found in vocab
+2023-09-26 16:15:57 | INFO | word_vec | 13 words not found in vocab
+2023-09-26 16:16:31 | INFO | deepnet.data.dataset_text | Use general data sampler.
+2023-09-26 16:16:34 | INFO | train | Dataset Statictis(only for evaluation): train: 1200
+2023-09-26 16:16:38 | INFO | train | Dataset Statictis(only for evaluation): valid: 1200
+2023-09-26 16:16:41 | INFO | train | Dataset Statictis(only for evaluation): test: 1200
+2023-09-26 17:22:26 | INFO | train | Using one GPU: cuda.
+2023-09-26 17:22:26 | INFO | train | Model parameters: Namespace(anchor='anchor', auto_clean_model_mode=1, batch_size=2, bert_config_path='./config/uncased_L-12_H-768_A-12/bert_config.json', bert_is_array=True, bert_pretrained_path='./saved_model/english_bert_base.bin', bert_vocab_path='./config/uncased_L-12_H-768_A-12/vocab.txt', breakpoint=-1, config_path='./config/model-en.conf', data_dir='/mnt/inspurfs/user-fs/pengwei/mnt/inspurfs/user-fs/pengwei/debug_traffic/./data/vpn', dim_bert=768, dim_hidden=512, dp_mode_gpu_num=-1, embedding_dropout_rate=0.5, gpu_mode=1, has_valid=1, iter_num=100000, label_path='./config/label.conf', lambda1=1, lambda2=1, language='en', learning_rate=0.001, linear_dropout_rate=0.5, local_rank=0, lr_bert=1e-05, lr_word_vector=0.0001, max_checkpoint=4096, max_length_sen=256, model_type='BertConCap', multi_gpu=None, n_gram=3, n_loss=3, name_model='debug', newvocab_path='./config/encryptd_vocab.txt', optim_type='Adam', per_checkpoint=256, pretrained_model_path='./saved_model/model-f1_macro-650.pth', rnn_type='LSTM', sampled_num=1200, seed=2021, segment_type='char', use_pretrain_bert=True, use_word_vec=True, weight_decay=0)
+2023-09-26 17:22:26 | INFO | train | Num of worker in data loader is: 4
+2023-09-26 17:22:26 | INFO | train | task detail: {'0': {'is_valid': True, 'contribution': 6, 'value': 6}, '1': {'is_valid': True, 'contribution': 2, 'value': 2}}
+2023-09-26 17:22:32 | INFO | word_vec | Loading word vectors...
+2023-09-26 17:22:32 | WARNING | word_vec | all word vec is inited by random
+2023-09-26 17:22:32 | INFO | word_vec | 0 words found in vocab
+2023-09-26 17:22:32 | INFO | word_vec | 13 words not found in vocab
+2023-09-26 17:22:57 | INFO | deepnet.data.dataset_text | Use general data sampler.
+2023-09-26 17:23:01 | INFO | train | Dataset Statictis(only for evaluation): train: 1200
+2023-09-26 17:23:04 | INFO | train | Dataset Statictis(only for evaluation): valid: 1200
+2023-09-26 17:23:07 | INFO | train | Dataset Statictis(only for evaluation): test: 1200
+2023-10-26 01:48:11 | INFO | train | Using one GPU: cuda.
+2023-10-26 01:48:11 | INFO | train | Model parameters: Namespace(anchor='anchor', auto_clean_model_mode=1, batch_size=48, bert_config_path='./config/uncased_L-12_H-768_A-12/bert_config.json', bert_is_array=True, bert_pretrained_path='./saved_model/english_bert_base.bin', bert_vocab_path='./config/uncased_L-12_H-768_A-12/vocab.txt', breakpoint=-1, config_path='./config/model-en.conf', data_dir='../debug_traffic/data/balanced_data', dim_bert=768, dim_hidden=512, dp_mode_gpu_num=-1, embedding_dropout_rate=0.5, gpu_mode=1, has_valid=1, iter_num=100000, label_path='./config/label.conf', lambda1=1, lambda2=1, language='en', learning_rate=0.001, linear_dropout_rate=0.5, local_rank=0, lr_bert=1e-05, lr_word_vector=0.0001, max_checkpoint=4096, max_length_sen=256, model_type='BertConCap', multi_gpu=None, n_gram=3, n_loss=3, name_model='debug', newvocab_path='./config/encryptd_vocab.txt', optim_type='Adam', per_checkpoint=256, pretrained_model_path='./saved_model/model-f1_macro-650.pth', rnn_type='LSTM', sampled_num=1200, seed=2021, segment_type='char', use_pretrain_bert=True, use_word_vec=True, weight_decay=0)
+2023-10-26 01:48:11 | INFO | train | Num of worker in data loader is: 4
+2023-10-26 01:48:11 | INFO | train | task detail: {'0': {'is_valid': True, 'contribution': 20, 'value': 20}, '1': {'is_valid': True, 'contribution': 2, 'value': 2}}
+2023-10-26 01:48:11 | INFO | word_vec | Loading word vectors...
+2023-10-26 01:48:11 | WARNING | word_vec | all word vec is inited by random
+2023-10-26 01:48:11 | INFO | word_vec | 0 words found in vocab
+2023-10-26 01:48:11 | INFO | word_vec | 13 words not found in vocab
+2023-10-26 01:48:37 | INFO | deepnet.data.dataset_text | Use general data sampler.
+2023-10-26 01:48:39 | INFO | train | Dataset Statictis(only for evaluation): train: 1200
+2023-10-26 01:48:41 | INFO | train | Dataset Statictis(only for evaluation): valid: 1200
+2023-10-26 01:48:43 | INFO | train | Dataset Statictis(only for evaluation): test: 1200
+2023-10-26 01:48:53 | INFO | train | ----------------------------------------------------------------------------------
+2023-10-26 01:48:53 | INFO | train | Time of iter training 10.12 s
+2023-10-26 01:48:53 | INFO | train | On iter step 0:, global step 1 Loss-step [1.1821 1.1821 1.0000]
+2023-10-26 01:49:16 | INFO | train | In dataset train: Loss is [59.3396 59.3396 0.0000]
+2023-10-26 01:49:40 | INFO | train | In dataset valid: Loss is [61.4627 61.4627 0.0000]
+2023-10-26 01:50:04 | INFO | train | In dataset test: Loss is [61.2296 61.2296 0.0000]
+2023-10-26 01:50:04 | INFO | train | The best f1_macro util now is 0.0000, at step -1
+2023-10-26 01:50:04 | INFO | train | The best f1_micro util now is 0.0000, at step -1
+2023-10-26 01:57:22 | INFO | train | ----------------------------------------------------------------------------------
+2023-10-26 01:57:22 | INFO | train | Time of iter training 438.03 s
+2023-10-26 01:57:22 | INFO | train | On iter step 1:, global step 257 Loss-step [11.7849 11.7849 0.0000]
+2023-10-26 01:57:45 | INFO | train | In dataset train: Loss is [4.6155 4.6155 0.0000]
+2023-10-26 01:58:09 | INFO | train | In dataset valid: Loss is [4.7456 4.7456 0.0000]
+2023-10-26 01:58:33 | INFO | train | In dataset test: Loss is [4.5662 4.5662 0.0000]
+2023-10-26 01:58:33 | INFO | train | The best f1_macro util now is 0.0000, at step -1
+2023-10-26 01:58:33 | INFO | train | The best f1_micro util now is 0.0000, at step -1
+2023-10-26 02:05:40 | INFO | train | ----------------------------------------------------------------------------------
+2023-10-26 02:05:40 | INFO | train | Time of iter training 427.35 s
+2023-10-26 02:05:40 | INFO | train | On iter step 2:, global step 513 Loss-step [3.5688 3.5688 0.0000]
+2023-10-26 02:06:03 | INFO | train | In dataset train: Loss is [2.5281 2.5281 0.0000]
+2023-10-26 02:06:27 | INFO | train | In dataset valid: Loss is [2.6741 2.6741 0.0000]
+2023-10-26 02:06:51 | INFO | train | In dataset test: Loss is [2.5609 2.5609 0.0000]
+2023-10-26 02:06:51 | INFO | train | The best f1_macro util now is 0.0000, at step -1
+2023-10-26 02:06:51 | INFO | train | The best f1_micro util now is 0.0000, at step -1
+2023-10-26 02:13:58 | INFO | train | ----------------------------------------------------------------------------------
+2023-10-26 02:13:58 | INFO | train | Time of iter training 426.96 s
+2023-10-26 02:13:58 | INFO | train | On iter step 3:, global step 769 Loss-step [2.4729 2.4729 0.0000]
+2023-10-26 02:14:21 | INFO | train | In dataset train: Loss is [1.7637 1.7637 0.0000]
+2023-10-26 02:14:44 | INFO | train | In dataset valid: Loss is [1.8803 1.8803 0.0000]
+2023-10-26 02:15:08 | INFO | train | In dataset test: Loss is [1.9481 1.9481 0.0000]
+2023-10-26 02:15:08 | INFO | train | The best f1_macro util now is 0.0000, at step -1
+2023-10-26 02:15:08 | INFO | train | The best f1_micro util now is 0.0000, at step -1
+2023-10-26 02:22:16 | INFO | train | ----------------------------------------------------------------------------------
+2023-10-26 02:22:16 | INFO | train | Time of iter training 427.91 s
+2023-10-26 02:22:16 | INFO | train | On iter step 4:, global step 1025 Loss-step [1.8133 1.8133 0.0000]
+2023-10-26 02:22:39 | INFO | train | In dataset train: Loss is [1.5822 1.5822 0.0000]
+2023-10-26 02:23:03 | INFO | train | In dataset valid: Loss is [1.6633 1.6633 0.0000]
+2023-10-26 02:23:26 | INFO | train | In dataset test: Loss is [1.6336 1.6336 0.0000]
+2023-10-26 02:23:26 | INFO | train | The best f1_macro util now is 0.0000, at step -1
+2023-10-26 02:23:26 | INFO | train | The best f1_micro util now is 0.0000, at step -1
+2023-10-26 02:25:24 | INFO | deepnet.data.dataset_text | Read next training chunk, data size is 53083
+2023-10-26 02:30:38 | INFO | train | ----------------------------------------------------------------------------------
+2023-10-26 02:30:38 | INFO | train | Time of iter training 431.80 s
+2023-10-26 02:30:38 | INFO | train | On iter step 5:, global step 1281 Loss-step [1.7666 1.7666 0.0000]
+2023-10-26 02:31:01 | INFO | train | In dataset train: Loss is [1.3796 1.3796 0.0000]
+2023-10-26 02:31:25 | INFO | train | In dataset valid: Loss is [1.4735 1.4735 0.0000]
+2023-10-26 02:31:49 | INFO | train | In dataset test: Loss is [1.4723 1.4723 0.0000]
+2023-10-26 02:31:49 | INFO | train | The best f1_macro util now is 0.0000, at step -1
+2023-10-26 02:31:49 | INFO | train | The best f1_micro util now is 0.0000, at step -1
+2023-10-26 02:38:55 | INFO | train | ----------------------------------------------------------------------------------
+2023-10-26 02:38:55 | INFO | train | Time of iter training 426.28 s
+2023-10-26 02:38:55 | INFO | train | On iter step 6:, global step 1537 Loss-step [1.5040 1.5040 0.0000]
+2023-10-26 02:39:18 | INFO | train | In dataset train: Loss is [1.2246 1.2246 0.0000]
+2023-10-26 02:39:42 | INFO | train | In dataset valid: Loss is [1.3362 1.3362 0.0000]
+2023-10-26 02:40:06 | INFO | train | In dataset test: Loss is [1.3104 1.3104 0.0000]
+2023-10-26 02:40:06 | INFO | train | The best f1_macro util now is 0.0000, at step -1
+2023-10-26 02:40:06 | INFO | train | The best f1_micro util now is 0.0000, at step -1

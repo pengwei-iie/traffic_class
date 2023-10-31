@@ -1,0 +1,35 @@
+2023-10-26 02:46:52 | INFO | train | Using one GPU: cuda.
+2023-10-26 02:46:52 | INFO | train | Model parameters: Namespace(anchor='anchor', auto_clean_model_mode=1, batch_size=48, bert_config_path='./config/uncased_L-12_H-768_A-12/bert_config.json', bert_is_array=True, bert_pretrained_path='./saved_model/english_bert_base.bin', bert_vocab_path='./config/uncased_L-12_H-768_A-12/vocab.txt', breakpoint=-1, config_path='./config/model-en.conf', data_dir='./data/ustc', dim_bert=768, dim_hidden=512, dp_mode_gpu_num=-1, embedding_dropout_rate=0.5, gpu_mode=1, has_valid=1, iter_num=100000, label_path='./config/label.conf', lambda1=1, lambda2=1, language='en', learning_rate=0.001, linear_dropout_rate=0.5, local_rank=0, lr_bert=1e-05, lr_word_vector=0.0001, max_checkpoint=256, max_length_sen=256, model_type='BertConCap', multi_gpu=None, n_gram=3, n_loss=3, name_model='bal_att_ustc_vocab', newvocab_path='./config/encryptd_vocab.txt', optim_type='Adam', per_checkpoint=256, pretrained_model_path='./saved_model/model-f1_macro-650.pth', rnn_type='LSTM', sampled_num=1200, seed=2021, segment_type='char', use_pretrain_bert=True, use_word_vec=True, weight_decay=0)
+2023-10-26 02:46:52 | INFO | train | Num of worker in data loader is: 4
+2023-10-26 02:46:52 | INFO | train | task detail: {'0': {'is_valid': True, 'contribution': 20, 'value': 20}, '1': {'is_valid': True, 'contribution': 2, 'value': 2}}
+2023-10-26 02:46:52 | INFO | word_vec | Loading word vectors...
+2023-10-26 02:46:52 | WARNING | word_vec | all word vec is inited by random
+2023-10-26 02:46:52 | INFO | word_vec | 0 words found in vocab
+2023-10-26 02:46:52 | INFO | word_vec | 13 words not found in vocab
+2023-10-26 02:47:18 | INFO | deepnet.data.dataset_text | Use general data sampler.
+2023-10-26 02:47:20 | INFO | train | Dataset Statictis(only for evaluation): train: 1200
+2023-10-26 02:47:21 | INFO | train | Dataset Statictis(only for evaluation): valid: 1200
+2023-10-26 02:47:23 | INFO | train | Dataset Statictis(only for evaluation): test: 1200
+2023-10-26 02:55:16 | INFO | train | Using one GPU: cuda.
+2023-10-26 02:55:16 | INFO | train | Model parameters: Namespace(anchor='anchor', auto_clean_model_mode=1, batch_size=48, bert_config_path='./config/uncased_L-12_H-768_A-12/bert_config.json', bert_is_array=True, bert_pretrained_path='./saved_model/english_bert_base.bin', bert_vocab_path='./config/uncased_L-12_H-768_A-12/vocab.txt', breakpoint=-1, config_path='./config/model-en.conf', data_dir='./data/ustc', dim_bert=768, dim_hidden=512, dp_mode_gpu_num=-1, embedding_dropout_rate=0.5, gpu_mode=1, has_valid=1, iter_num=100000, label_path='./config/label.conf', lambda1=1, lambda2=1, language='en', learning_rate=0.001, linear_dropout_rate=0.5, local_rank=0, lr_bert=1e-05, lr_word_vector=0.0001, max_checkpoint=256, max_length_sen=256, model_type='BertConCap', multi_gpu=None, n_gram=3, n_loss=3, name_model='bal_att_ustc_vocab', newvocab_path='./config/encryptd_vocab.txt', optim_type='Adam', per_checkpoint=256, pretrained_model_path='./saved_model/model-f1_macro-650.pth', rnn_type='LSTM', sampled_num=1200, seed=2021, segment_type='char', use_pretrain_bert=True, use_word_vec=True, weight_decay=0)
+2023-10-26 02:55:16 | INFO | train | Num of worker in data loader is: 4
+2023-10-26 02:55:16 | INFO | train | task detail: {'0': {'is_valid': True, 'contribution': 20, 'value': 20}, '1': {'is_valid': True, 'contribution': 2, 'value': 2}}
+2023-10-26 02:55:16 | INFO | word_vec | Loading word vectors...
+2023-10-26 02:55:16 | WARNING | word_vec | all word vec is inited by random
+2023-10-26 02:55:16 | INFO | word_vec | 0 words found in vocab
+2023-10-26 02:55:16 | INFO | word_vec | 13 words not found in vocab
+2023-10-26 02:55:45 | INFO | deepnet.data.dataset_text | Use general data sampler.
+2023-10-26 02:55:46 | INFO | train | Dataset Statictis(only for evaluation): train: 1200
+2023-10-26 02:55:48 | INFO | train | Dataset Statictis(only for evaluation): valid: 1200
+2023-10-26 02:55:50 | INFO | train | Dataset Statictis(only for evaluation): test: 1200
+2023-10-26 02:56:00 | INFO | train | ----------------------------------------------------------------------------------
+2023-10-26 02:56:00 | INFO | train | Time of iter training 10.35 s
+2023-10-26 02:56:00 | INFO | train | On iter step 0:, global step 1 Loss-step [1.1845 1.1845 1.0000]
+2023-10-26 02:56:53 | INFO | train | Using one GPU: cuda.
+2023-10-26 02:56:53 | INFO | train | Model parameters: Namespace(anchor='anchor', auto_clean_model_mode=1, batch_size=48, bert_config_path='./config/uncased_L-12_H-768_A-12/bert_config.json', bert_is_array=True, bert_pretrained_path='./saved_model/english_bert_base.bin', bert_vocab_path='./config/uncased_L-12_H-768_A-12/vocab.txt', breakpoint=-1, config_path='./config/model-en.conf', data_dir='./data/ustc', dim_bert=768, dim_hidden=512, dp_mode_gpu_num=-1, embedding_dropout_rate=0.5, gpu_mode=1, has_valid=1, iter_num=100000, label_path='./config/label.conf', lambda1=1, lambda2=1, language='en', learning_rate=0.001, linear_dropout_rate=0.5, local_rank=0, lr_bert=1e-05, lr_word_vector=0.0001, max_checkpoint=256, max_length_sen=256, model_type='BertConCap', multi_gpu=None, n_gram=3, n_loss=3, name_model='bal_att_ustc_vocab', newvocab_path='./config/encryptd_vocab.txt', optim_type='Adam', per_checkpoint=256, pretrained_model_path='./saved_model/model-f1_macro-650.pth', rnn_type='LSTM', sampled_num=1200, seed=2021, segment_type='char', use_pretrain_bert=True, use_word_vec=True, weight_decay=0)
+2023-10-26 02:56:53 | INFO | train | Num of worker in data loader is: 4
+2023-10-26 02:56:53 | INFO | train | task detail: {'0': {'is_valid': True, 'contribution': 20, 'value': 20}, '1': {'is_valid': True, 'contribution': 2, 'value': 2}}
+2023-10-26 02:56:53 | INFO | word_vec | Loading word vectors...
+2023-10-26 02:56:53 | WARNING | word_vec | all word vec is inited by random
+2023-10-26 02:56:53 | INFO | word_vec | 0 words found in vocab
+2023-10-26 02:56:53 | INFO | word_vec | 13 words not found in vocab
